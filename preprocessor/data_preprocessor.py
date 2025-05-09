@@ -71,10 +71,10 @@ if __name__ == '__main__':
     processor.impute_missing_with_median(['Age'])
     processor.impute_missing_with_mode(['Embarked'])
 
-    # Map categorical feature
+    # Map categorical features
     processor.map_categorical('Sex', {'male': 0, 'female': 1})
 
-    # One-hot encode categorical feature
+    # One-hot encode categorical features
     processor.one_hot_encode(['Embarked'])
 
     # Scale numeric features
@@ -84,7 +84,7 @@ if __name__ == '__main__':
     features = processor.get_features('Survived')
     labels = processor.get_labels('Survived')
 
-    # Plot distribution (example)
+    # Plot distribution
     processor.plot_column_distribution('Age')
 
     # Check processed DataFrame
