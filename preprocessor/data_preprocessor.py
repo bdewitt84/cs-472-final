@@ -9,7 +9,7 @@ Provides functions for common data preprocessing tasks
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-
+from util.helper import safe_write
 
 # Metadata
 __author__ = "Brett DeWitt"
@@ -137,7 +137,7 @@ if __name__ == '__main__':
     processor.map_categorical('Sex', {'male': 0, 'female': 1})
 
     # One-hot encode categorical features
-    processor.one_hot_encode(['Embarked'])
+    processor.one_hot_encode(['Embarked', 'Pclass'])
 
     # Scale numeric features
     processor.scale_numeric_features(['Age', 'Fare'], method='minmax')
@@ -149,6 +149,20 @@ if __name__ == '__main__':
     # Plot distribution
     processor.plot_column_distribution('Age')
 
-    # Check processed DataFrame
-    print(processor.get_dataframe().head())
-    print(processor.get_dataframe().info())
+    # Split data
+    train, dev, test = processor.split_train_dev_test(7,2,1)
+
+    # Check processed DataFrames
+    print(train.head())
+    print(train.info())
+
+    print(dev.head())
+    print(dev.info())
+
+    print(test.head())
+    print(test.info())
+
+    # Save processed data
+    safe_write('./train.csv', train.to_csv(index=False))
+    safe_write('./dev.csv', dev.to_csv(index=False))
+    safe_write('./test.csv', test.to_csv(index=False))
