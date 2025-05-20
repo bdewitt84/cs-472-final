@@ -41,7 +41,7 @@ class DataPreprocessor:
 
     def one_hot_encode(self, cols: list, drop_original=True, prefix=True):
         for col in cols:
-            dummies = pd.get_dummies(self.df[col], prefix=col if prefix else None)
+            dummies = pd.get_dummies(self.df[col], prefix=col if prefix else None, dtype=float)
             self.df = pd.concat([self.df, dummies], axis=1)
             if drop_original:
                 self.df.drop(col, axis=1, inplace=True)
