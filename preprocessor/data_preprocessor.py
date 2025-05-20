@@ -1,24 +1,43 @@
+#./preprocessor/data_preprocessor.py
+
+"""
+Data preprocessor for cs-472-file.
+Provides functions for common data preprocessing tasks
+"""
+
+# Imports
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+
+
+# Metadata
+__author__ = "Brett DeWitt"
+__date__ = "2025-5-8"
+
 
 class DataPreprocessor:
     def __init__(self, df: pd.DataFrame):
         self.df = df.copy()
 
+
     def drop_features(self, cols: list):
         self.df.drop(cols, axis=1, inplace=True)
+
 
     def impute_missing_with_median(self, cols: list):
         for col in cols:
             self.df[col] = self.df[col].fillna(self.df[col].median())
 
+
     def impute_missing_with_mode(self, cols: list):
         for col in cols:
             self.df[col] = self.df[col].fillna(self.df[col].mode()[0])
 
+
     def map_categorical(self, col: str, mapping: dict):
         self.df[col] = self.df[col].map(mapping)
+
 
     def one_hot_encode(self, cols: list, drop_original=True, prefix=True):
         for col in cols:
@@ -26,6 +45,7 @@ class DataPreprocessor:
             self.df = pd.concat([self.df, dummies], axis=1)
             if drop_original:
                 self.df.drop(col, axis=1, inplace=True)
+
 
     def scale_numeric_features(self, cols: list, method='minmax'):
         for col in cols:
@@ -40,11 +60,14 @@ class DataPreprocessor:
             else:
                 raise ValueError(f"Unknown scaling method '{method}'")
 
+
     def get_features(self, label_col: str):
         return self.df.drop(label_col, axis=1)
 
+
     def get_labels(self, label_col: str):
         return self.df[label_col]
+
 
     def plot_column_distribution(self, col: str, bins=30):
         plt.figure(figsize=(8, 6))
@@ -54,8 +77,10 @@ class DataPreprocessor:
         plt.ylabel('Count')
         plt.show()
 
+
     def get_dataframe(self):
         return self.df.copy()
+
 
     def to_csv(self):
         return self.df.to_csv(index=False)
