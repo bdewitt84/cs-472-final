@@ -71,6 +71,23 @@ def test_get_labels(sample_df):
     labels = processor.get_labels('label')
     assert labels.equals(sample_df['label'])
 
+
+def test_shuffle_rows(sample_df):
+    processor = DataPreprocessor(sample_df)
+
+    pre_shuffle_df = processor.df.copy()
+    processor.shuffle_rows(42)
+
+    # Order should change
+    assert not pre_shuffle_df.equals(processor.df)
+
+    # Data should remain unchanged, regardless of order
+    pd.testing.assert_frame_equal(
+        pre_shuffle_df.sort_values(by=pre_shuffle_df.columns.tolist()).reset_index(drop=True),
+        processor.df.sort_values(by=processor.df.columns.tolist()).reset_index(drop=True)
+    )
+
+
 def test_get_dataframe_returns_copy(sample_df):
     processor = DataPreprocessor(sample_df)
     df_copy = processor.get_dataframe()

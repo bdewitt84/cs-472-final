@@ -85,6 +85,13 @@ class DataPreprocessor:
     def to_csv(self):
         return self.df.to_csv(index=False)
 
+
+    def shuffle_rows(self, random_state=42):
+        self.df = self.df.sample(frac=1, random_state=random_state)
+        self.df.reset_index(drop=True)
+
+
+
 if __name__ == '__main__':
     df_raw = pd.read_csv('../kaggle-titanic.csv')
     processor = DataPreprocessor(df_raw)
