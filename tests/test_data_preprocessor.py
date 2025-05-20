@@ -93,3 +93,56 @@ def test_get_dataframe_returns_copy(sample_df):
     df_copy = processor.get_dataframe()
     df_copy['A'] = 999
     assert processor.df['A'].iloc[0] != 999  # original should remain unchanged
+
+
+def test_split_train_dev_test():
+    """Tests that the split is proportional to the number of samples in the data."""
+
+    df = pd.DataFrame({
+        'A': [1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+        'B': [0, 0, 0, 0, 0, 1, 1, 1, 1, 1],
+        'label': [0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
+    })
+
+    preprocessor = DataPreprocessor(df)
+    train, dev, test = preprocessor.split_train_dev_test(7, 2, 1)
+
+    assert len(train) == 7
+    assert len(dev) == 2
+    assert len(test) == 1
+
+
+def test_split_train_dev_test_odd():
+    """Tests that the split consumes all the samples when the number of samples
+    does not split evenly"""
+
+    df = pd.DataFrame({
+        'A': [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1],
+        'B': [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1],
+        'label': [0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1]
+    })
+
+    preprocessor = DataPreprocessor(df)
+    train, dev, test = preprocessor.split_train_dev_test(7, 2, 1)
+
+    assert len(train) + len(dev) + len(test) == 11
+
+
+def test_split_train_dev_test_complete():
+    """Tests that the split preserves the integrity of the data"""
+
+    df = pd.DataFrame({
+        'A': [1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1],
+        'B': [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1],
+        'label': [0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1]
+    })
+
+    preprocessor = DataPreprocessor(df)
+
+    train, dev, test = preprocessor.split_train_dev_test(7, 2, 1)
+
+    combined_indices = set(train.index) | set(dev.index) | set(test.index)
+    assert len(combined_indices) == 11
+
+    recombined_dataframe = pd.concat([train, dev, test]).sort_index()
+    pd.testing.assert_frame_equal(recombined_dataframe, preprocessor.df)

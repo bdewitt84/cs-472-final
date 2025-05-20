@@ -91,6 +91,36 @@ class DataPreprocessor:
         self.df.reset_index(drop=True)
 
 
+    def split_train_dev_test(self, train: int, dev: int, test: int):
+        """
+        Splits data into train, dev, and test sets.
+        :param train: proportion of train set
+        :param dev: proportion of dev set
+        :param test: proportion of test set
+        :return: train, dev, test pandas DataFrames
+        """
+
+        if train < 0 or dev < 0 or test < 0:
+            raise ValueError(f"Train, dev, and test must be non-negative integers")
+
+        total = train+dev+test
+
+        if total == 0:
+            raise ValueError(f"Sum of train and dev and test must be greater than 0")
+
+        num_rows = len(self.df)
+        train_pct = train / total
+        train_end = int(num_rows * train_pct)
+
+        dev_pct = dev / total
+        dev_end = train_end + int(num_rows * dev_pct)
+
+        train_df = self.df[:train_end]
+        dev_df = self.df[train_end:dev_end]
+        test_df = self.df[dev_end:]
+
+        return train_df, dev_df, test_df
+
 
 if __name__ == '__main__':
     df_raw = pd.read_csv('../kaggle-titanic.csv')
