@@ -52,10 +52,12 @@ class KNearestNeighbors:
         dist_sample = []
         for i, x in enumerate(self.data[0]): 
             dist = self.metric(z, x)
-            dist_sample += [dist, i]
+            dist_sample += [[dist, i]]
+        print(dist_sample)
 
         # Put distance, sample pairs into numpy array
         np_dist_sample = np.array(dist_sample)
+        print(np_dist_sample)
         
         # Sort the distance, sample pairs by distance
         sorted_np_dist_sample = np_dist_sample[np_dist_sample[:, 0].argsort()]
