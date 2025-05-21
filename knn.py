@@ -1,3 +1,9 @@
+'''
+Implements the K-Nearest Neighbors Model for Machine Learning
+Author: Makani Buckley
+Date Added: May 21, 2025
+'''
+
 import numpy as np
 
 class KNearestNeighbors:
