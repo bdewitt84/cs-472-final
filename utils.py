@@ -1,3 +1,5 @@
+import numpy as np
+
 '''
 Miscellaneous utility functions and classes supporting the project.
 Author: Makani Buckley
@@ -27,4 +29,4 @@ Arguments
    - a: a list
 '''
 def always_one(a):
-    return [1] * len(a)
+    return np.ones(len(a))
