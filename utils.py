@@ -20,3 +20,11 @@ def euclidian(a, b):
         sum += (ai - bi) * (ai - bi) # compute (ai - bi) ^ 2
 
     return sqrt(sum)
+
+'''
+Take a list and returns a list of 1's of the same length
+Arguments
+   - a: a list
+'''
+def always_one(a):
+    return [1] * len(a)
