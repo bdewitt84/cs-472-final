@@ -62,13 +62,35 @@ class KNearestNeighbors:
         # Sort the distance, sample pairs by distance
         sorted_np_dist_sample = np_dist_sample[np_dist_sample[:, 0].argsort()]
         
-        # Get the nearest k neighbors
+        # Get the nearest k neighbors as indices
         k_nearest_neighbors = sorted_np_dist_sample[:self.n_neighbors, 1]
         print(k_nearest_neighbors)
 
         # 2. k-nearest neighbors vote on class of x
         #    Need: k-nearest neighbors, classes of neigbors,
 
+        # Get neigbor classes 
+        k_classes = np.array([self.data[1][int(i)] for i in k_nearest_neighbors])
+
+        # Get class categories and set up a poll for counting votes
+        class_poll = {x: 0 for x in sorted(set(k_classes))}
+
+        # Get neighbor weights
+        k_weights = self.weights(sorted_np_dist_sample[:self.n_neighbors, 0])
+
+        # K Neighbors go to the polls
+        for w, y in zip(k_weights, k_classes):
+            class_poll[y] += w
+
+        # Get the class with maximum vote
+        pred = None
+        max = float('-inf')
+        for c in class_poll:
+            vote = class_poll[c]
+            if max < vote:
+                pred = c
+                max = vote 
+
         # 3. return predicted class of x
 
-        return 0 # return 0 by default until implemented
+        return pred
