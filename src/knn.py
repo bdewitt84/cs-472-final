@@ -17,12 +17,19 @@ class KNearestNeighbors:
         - metric: a function taking some samples a and b,
           represented by feature vectors, and returning a
           scalar distance between them
+        - weights_parametesrs: additional parameters to pass to the weights
+          function
+        - metric_parameters: additional parameters to pass to the metric
+          function
     '''
-    def __init__ (self, n_neighbors, weights, metric):
+    def __init__ (self, n_neighbors, weights, metric, weights_parameters={},
+        metric_parameters={}):
         self.n_neighbors = n_neighbors 
         self.data = None
         self.weights = weights
         self.metric = metric
+        self.weights_parameters = weights_parameters
+        self.metric_parameters = metric_parameters
 
     '''
     Fit the model to some training samples
@@ -51,7 +58,7 @@ class KNearestNeighbors:
         # Calculate distances of all samples
         dist_sample = []
         for i, x in enumerate(self.data[0]): 
-            dist = self.metric(z, x)
+            dist = self.metric(z, x, **self.metric_parameters)
             dist_sample += [[dist, i]]
         print(dist_sample)
 
@@ -76,7 +83,10 @@ class KNearestNeighbors:
         class_poll = {x: 0 for x in sorted(set(k_classes))}
 
         # Get neighbor weights
-        k_weights = self.weights(sorted_np_dist_sample[:self.n_neighbors, 0])
+        k_weights = self.weights(
+            sorted_np_dist_sample[:self.n_neighbors, 0],
+            **self.weights_parameters
+        )
 
         # K Neighbors go to the polls
         for w, y in zip(k_weights, k_classes):
