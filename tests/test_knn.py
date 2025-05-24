@@ -1,3 +1,8 @@
+'''
+Unit Tests for our implementation of K Nearest Neigbhor
+Author: Makani Buckley
+Date: May 24, 2025
+'''
 from src.utils import always_one, euclidian
 from src.knn import KNearestNeighbors
 
