@@ -5,6 +5,7 @@ Date Added: May 21, 2025
 '''
 
 import numpy as np
+from pandas import DataFrame
 
 class KNearestNeighbors:
 
@@ -34,8 +35,8 @@ class KNearestNeighbors:
     '''
     Fit the model to some training samples
     Arguments
-        - X: the matrix of feature vectors
-        - Y: the vector of class associated to the 
+        - X: the data frame of feature vectors
+        - Y: the data frame of class associated to the 
           feature vectors of X
     '''
     def fit (self, X, Y):
@@ -54,30 +55,35 @@ class KNearestNeighbors:
         # If data is None throw an error
         if self.data is None:
             raise ValueError('Training data is not initialized')
+
+        # Get features as a numpy array
+        features = self.data[0].to_numpy()
+        print(features)
         
         # Calculate distances of all samples
         dist_sample = []
-        for i, x in enumerate(self.data[0]): 
+        for i, x in enumerate(features): 
             dist = self.metric(z, x, **self.metric_parameters)
             dist_sample += [[dist, i]]
-        print(dist_sample)
 
         # Put distance, sample pairs into numpy array
         np_dist_sample = np.array(dist_sample)
-        print(np_dist_sample)
         
         # Sort the distance, sample pairs by distance
         sorted_np_dist_sample = np_dist_sample[np_dist_sample[:, 0].argsort()]
         
         # Get the nearest k neighbors as indices
         k_nearest_neighbors = sorted_np_dist_sample[:self.n_neighbors, 1]
-        print(k_nearest_neighbors)
 
         # 2. k-nearest neighbors vote on class of x
         #    Need: k-nearest neighbors, classes of neigbors,
 
+        # Get classes as a numpy array
+        classes = self.data[1].to_numpy().flatten()
+        print(classes)
+
         # Get neigbor classes 
-        k_classes = np.array([self.data[1][int(i)] for i in k_nearest_neighbors])
+        k_classes = np.array([classes[int(i)] for i in k_nearest_neighbors])
 
         # Get class categories and set up a poll for counting votes
         class_poll = {x: 0 for x in sorted(set(k_classes))}
