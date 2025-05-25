@@ -19,3 +19,29 @@ processor.plot_column_distribution('Fare')
 ```
 to see why
 
+## Installation instructions
+
+Install repository using
+```
+git clone https://github.com/bdewitt84/cs-472-final.git
+```
+Navigate to the repository with
+```
+cd cs-472-final
+```
+
+Then install package dependencies using
+```
+pip install -r requirements.txt
+```
+Install local packages using
+```
+pip install -e .
+```
+
+## Usage
+
+Train and Validate a K-Nearest Neighbors model on the titanic data in data/ using
+```
+python src/train_validate.py
+```
