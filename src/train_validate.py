@@ -5,12 +5,18 @@ Derrived from skl/knn.py by Brett DeWitt
 Author:  Makani Buckley
 Date: May 24, 2025
 '''
-#from sklearn.metrics import accuracy_score
 import pandas as pd
 
 from preprocessor.data_preprocessor import DataPreprocessor
 from src.knn import KNearestNeighbors
 from src.utils import always_one, euclidian
+
+def accuracy_score(y_pred, y_true):
+    if len(y_pred) != len(y_true):
+        raise ValueException("The y_pred and y_true have different lengths")
+
+    correct = [a == b for a, b in zip(y_pred, y_true)]
+    return sum(correct) / len(y_pred)
 
 if __name__ == "__main__":
 
@@ -24,13 +30,13 @@ if __name__ == "__main__":
     train_labels = train_dp.get_labels('Survived')
 
     # Read in test data
-    test_data = pd.read_csv('./dev.csv')
-    test_df = pd.DataFrame(test_data)
-    test_dp = DataPreprocessor(test_df)
+    val_data = pd.read_csv('./dev.csv')
+    val_df = pd.DataFrame(val_data)
+    val_dp = DataPreprocessor(val_df)
 
     # Get test features and lables
-    test_features = test_dp.get_features('Survived')
-    test_labels = test_dp.get_labels('Survived')
+    val_features = val_dp.get_features('Survived')
+    val_labels = val_dp.get_labels('Survived')
 
     # Configure and instantiate classifier
     params = {
@@ -44,9 +50,9 @@ if __name__ == "__main__":
     classifier.fit(train_features, train_labels)
 
     # Make predictions on test features
-    y_pred = classifier.predict(test_features)
+    y_pred = classifier.predict(val_features)
 
     # Calculate accuracy on test labels
-    accuracy = accuracy_score(y_pred, test_labels)
+    accuracy = accuracy_score(y_pred, val_labels)
 
     print("Accuracy:", accuracy)
