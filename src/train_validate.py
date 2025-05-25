@@ -44,7 +44,7 @@ if __name__ == "__main__":
         "weights": always_one,
         "metric": euclidian,
     }
-    classifier = KNeighborsClassifier(**params)
+    classifier = KNearestNeighbors(**params)
 
     # Train classifier on training data
     classifier.fit(train_features, train_labels)
