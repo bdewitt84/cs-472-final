@@ -12,28 +12,19 @@ def test_and():
     X = DataFrame({"A": [0,0,1,1], "B": [0,1,0,1]})
     Y = DataFrame({"C": [0,0,0,1]})
     model.fit(X, Y)
-    assert model.predict([0,0]) == 0;
-    assert model.predict([0,1]) == 0;
-    assert model.predict([1,0]) == 0;
-    assert model.predict([1,1]) == 1;
+    assert all(a == b for a, b in zip([0,0,0,1], model.predict(X)));
 
 def test_or():
     model = KNearestNeighbors(1, always_one, euclidian)
     X = DataFrame({"A": [0,0,1,1], "B": [0,1,0,1]})
     Y = DataFrame({"C": [0,1,1,1]})
     model.fit(X, Y)
-    assert model.predict([0,0]) == 0;
-    assert model.predict([0,1]) == 1;
-    assert model.predict([1,0]) == 1;
-    assert model.predict([1,1]) == 1;
+    assert all(a == b for a, b in zip([0,1,1,1], model.predict(X)));
 
 def test_xor():
     model = KNearestNeighbors(1, always_one, euclidian)
     X = DataFrame({"A": [0,0,1,1], "B": [0,1,0,1]})
     Y = DataFrame({"C": [0,1,1,0]})
     model.fit(X, Y)
-    assert model.predict([0,0]) == 0;
-    assert model.predict([0,1]) == 1;
-    assert model.predict([1,0]) == 1;
-    assert model.predict([1,1]) == 0;
+    assert all(a == b for a, b in zip([0,1,1,0], model.predict(X)));
 

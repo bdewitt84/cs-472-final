@@ -45,68 +45,71 @@ class KNearestNeighbors:
     '''
     Predicts the class of a sample
     Arguments:
-        - z: the feature vector [x1, ..., xn] of the
-          sample to predict
+        - Z: the data frame of samples to predict
     '''
-    def predict (self, z):
-        # 1. iterate over all samples to find k-nearest neighbors
-        #    Need: k, feature vectors of samples, distance function
+    def predict (self, Z):
 
-        # If data is None throw an error
-        if self.data is None:
-            raise ValueError('Training data is not initialized')
+        # Iterate over all samples and predict each
+        z_arr = Z.to_numpy() # the data frame as a numpy array
+        y_pred = np.empty(len(z_arr))
+        for j, z in enumerate(z_arr): 
+            # 1. iterate over all training samples to find k-nearest neighbors
+            #    Need: k, feature vectors of samples, distance function
 
-        # Get features as a numpy array
-        features = self.data[0].to_numpy()
-        print(features)
-        
-        # Calculate distances of all samples
-        dist_sample = []
-        for i, x in enumerate(features): 
-            dist = self.metric(z, x, **self.metric_parameters)
-            dist_sample += [[dist, i]]
+            # If data is None throw an error
+            if self.data is None:
+                raise ValueError('Training data is not initialized')
 
-        # Put distance, sample pairs into numpy array
-        np_dist_sample = np.array(dist_sample)
-        
-        # Sort the distance, sample pairs by distance
-        sorted_np_dist_sample = np_dist_sample[np_dist_sample[:, 0].argsort()]
-        
-        # Get the nearest k neighbors as indices
-        k_nearest_neighbors = sorted_np_dist_sample[:self.n_neighbors, 1]
+            # Get features as a numpy array
+            features = self.data[0].to_numpy()
+            
+            # Calculate distances of all samples
+            dist_sample = []
+            for i, x in enumerate(features): 
+                dist = self.metric(z, x, **self.metric_parameters)
+                dist_sample += [[dist, i]]
 
-        # 2. k-nearest neighbors vote on class of x
-        #    Need: k-nearest neighbors, classes of neigbors,
+            # Put distance, sample pairs into numpy array
+            np_dist_sample = np.array(dist_sample)
+            
+            # Sort the distance, sample pairs by distance
+            sorted_np_dist_sample = np_dist_sample[np_dist_sample[:, 0].argsort()]
+            
+            # Get the nearest k neighbors as indices
+            k_nearest_neighbors = sorted_np_dist_sample[:self.n_neighbors, 1]
 
-        # Get classes as a numpy array
-        classes = self.data[1].to_numpy().flatten()
-        print(classes)
+            # 2. k-nearest neighbors vote on class of x
+            #    Need: k-nearest neighbors, classes of neigbors,
 
-        # Get neigbor classes 
-        k_classes = np.array([classes[int(i)] for i in k_nearest_neighbors])
+            # Get classes as a numpy array
+            classes = self.data[1].to_numpy().flatten()
 
-        # Get class categories and set up a poll for counting votes
-        class_poll = {x: 0 for x in sorted(set(k_classes))}
+            # Get neigbor classes 
+            k_classes = np.array([classes[int(i)] for i in k_nearest_neighbors])
 
-        # Get neighbor weights
-        k_weights = self.weights(
-            sorted_np_dist_sample[:self.n_neighbors, 0],
-            **self.weights_parameters
-        )
+            # Get class categories and set up a poll for counting votes
+            class_poll = {x: 0 for x in sorted(set(k_classes))}
 
-        # K Neighbors go to the polls
-        for w, y in zip(k_weights, k_classes):
-            class_poll[y] += w
+            # Get neighbor weights
+            k_weights = self.weights(
+                sorted_np_dist_sample[:self.n_neighbors, 0],
+                **self.weights_parameters
+            )
 
-        # Get the class with maximum vote
-        pred = None
-        max = float('-inf')
-        for c in class_poll:
-            vote = class_poll[c]
-            if max < vote:
-                pred = c
-                max = vote 
+            # K Neighbors go to the polls
+            for w, y in zip(k_weights, k_classes):
+                class_poll[y] += w
 
-        # 3. return predicted class of x
+            # Get the class with maximum vote
+            pred = None
+            max = float('-inf')
+            for c in class_poll:
+                vote = class_poll[c]
+                if max < vote:
+                    pred = c
+                    max = vote 
 
-        return pred
+            # 3. store predicted class of z
+            y_pred[j] = pred
+
+        return y_pred

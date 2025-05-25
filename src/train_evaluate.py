@@ -6,10 +6,11 @@ Author:  Makani Buckley
 Date: May 24, 2025
 '''
 #from sklearn.metrics import accuracy_score
-#from sklearn.neighbors import KNeighborsClassifier
-from knn import KNearestNeighbors
 import pandas as pd
+
 from preprocessor.data_preprocessor import DataPreprocessor
+from src.knn import KNearestNeighbors
+from src.utils import always_one, euclidian
 
 if __name__ == "__main__":
 
@@ -34,11 +35,8 @@ if __name__ == "__main__":
     # Configure and instantiate classifier
     params = {
         "n_neighbors": 5,
-        "weights": "uniform",
-        "algorithm": "brute",
-        "metric": "minkowski",
-        "p": 2,
-        "n_jobs": None
+        "weights": always_one,
+        "metric": euclidian,
     }
     classifier = KNeighborsClassifier(**params)
 
