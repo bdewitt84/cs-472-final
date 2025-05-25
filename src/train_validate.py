@@ -21,7 +21,7 @@ def accuracy_score(y_pred, y_true):
 if __name__ == "__main__":
 
     # Read in training data
-    train_data = pd.read_csv(r'./train.csv')
+    train_data = pd.read_csv(r'data/train.csv')
     train_df = pd.DataFrame(train_data)
     train_dp = DataPreprocessor(train_df)
 
@@ -30,7 +30,7 @@ if __name__ == "__main__":
     train_labels = train_dp.get_labels('Survived')
 
     # Read in test data
-    val_data = pd.read_csv('./dev.csv')
+    val_data = pd.read_csv('data/dev.csv')
     val_df = pd.DataFrame(val_data)
     val_dp = DataPreprocessor(val_df)
 
