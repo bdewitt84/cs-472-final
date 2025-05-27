@@ -7,7 +7,7 @@ Provides functions for common data preprocessing tasks
 
 # Imports
 import pandas as pd
-import seaborn as sns
+import seaborn as sns # For histogram in plot_column_distribution
 import matplotlib.pyplot as plt
 from util.helper import safe_write
 
@@ -21,25 +21,53 @@ class DataPreprocessor:
         self.df = df.copy()
 
 
-    def drop_features(self, cols: list):
+    def drop_features(self, cols: list[str]):
+        """Drops columns from dataframe
+
+        :param cols: list of columns to drop
+        :return: None
+        """
         self.df.drop(cols, axis=1, inplace=True)
 
 
-    def impute_missing_with_median(self, cols: list):
+    def impute_missing_with_median(self, cols: list[str]):
+        """Imputes missing values with median of columns values
+
+        :param cols: list of columns in which to impute missing values
+        :return: None
+        """
         for col in cols:
             self.df[col] = self.df[col].fillna(self.df[col].median())
 
 
-    def impute_missing_with_mode(self, cols: list):
+    def impute_missing_with_mode(self, cols: list[str]):
+        """ Imputes missing values with mode of columns values
+
+        :param cols: list of columns in which to impute missing values
+        :return: None
+        """
         for col in cols:
             self.df[col] = self.df[col].fillna(self.df[col].mode()[0])
 
 
     def map_categorical(self, col: str, mapping: dict):
+        """Replaces values in column with values defined in mapping
+
+        :param col: column to map
+        :param mapping: key value pair mapping
+        :return: None
+        """
         self.df[col] = self.df[col].map(mapping)
 
 
-    def one_hot_encode(self, cols: list, drop_original=True, prefix=True):
+    def one_hot_encode(self, cols: list[str], drop_original=True, prefix=True):
+        """Encodes columns into one-hot encoded columns
+
+        :param cols: List of columns to encode
+        :param drop_original: Drops the original column if True
+        :param prefix: Prefixes encoded columns with original column name if True
+        :return: None
+        """
         for col in cols:
             dummies = pd.get_dummies(self.df[col], prefix=col if prefix else None, dtype=float)
             self.df = pd.concat([self.df, dummies], axis=1)
@@ -47,7 +75,13 @@ class DataPreprocessor:
                 self.df.drop(col, axis=1, inplace=True)
 
 
-    def scale_numeric_features(self, cols: list, method='minmax'):
+    def scale_numeric_features(self, cols: list[str], method='minmax'):
+        """Scales numeric columns into range [0, 1]
+
+        :param cols: List of columns to scale
+        :param method: Method to use for scaling
+        :return: None
+        """
         for col in cols:
             if method == 'zscore':
                 mean = self.df[col].mean()
@@ -62,14 +96,30 @@ class DataPreprocessor:
 
 
     def get_features(self, label_col: str):
+        """Takes name of label column and returns list of features
+
+        :param label_col: Name of label column
+        :return: list of features
+        """
         return self.df.drop(label_col, axis=1)
 
 
     def get_labels(self, label_col: str):
+        """Takes name of label column and returns that column
+
+        :param label_col: Name of label column
+        :return: Label column
+        """
         return self.df[label_col]
 
 
     def plot_column_distribution(self, col: str, bins=30):
+        """Plots column distribution with matplotlib
+
+        :param col: Column to plot
+        :param bins: Number of bins to plot
+        :return: None
+        """
         plt.figure(figsize=(8, 6))
         sns.histplot(self.df[col], bins=bins, kde=True, color='skyblue')
         plt.title(f'Distribution of {col}')
@@ -79,21 +129,34 @@ class DataPreprocessor:
 
 
     def get_dataframe(self):
+        """Returns the current working dataframe
+
+        :return: Dataframe
+        """
         return self.df.copy()
 
 
     def to_csv(self):
+        """Returns the current working dataframe in CSV format
+
+        :return: String
+        """
         return self.df.to_csv(index=False)
 
 
     def shuffle_rows(self, random_state=42):
+        """Shuffles rows of dataframe
+
+        :param random_state: Seed with which to initialize randomizer
+        :return: None
+        """
         self.df = self.df.sample(frac=1, random_state=random_state)
         self.df.reset_index(drop=True)
 
 
     def split_train_dev_test(self, train: int, dev: int, test: int):
-        """
-        Splits data into train, dev, and test sets.
+        """Splits data into train, dev, and test sets.
+
         :param train: proportion of train set
         :param dev: proportion of dev set
         :param test: proportion of test set
@@ -106,7 +169,7 @@ class DataPreprocessor:
         total = train+dev+test
 
         if total == 0:
-            raise ValueError(f"Sum of train and dev and test must be greater than 0")
+            raise ValueError(f"Sum of train, dev and test must be greater than 0")
 
         num_rows = len(self.df)
         train_pct = train / total
