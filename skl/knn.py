@@ -1,9 +1,11 @@
 #./skl/knn.py
 
 """Sci-kit Learn KNN model used for reference and comparison in cs-472-final"""
-from sklearn.metrics import accuracy_score
+
+
 # Imports
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
 import pandas as pd
 from preprocessor.data_preprocessor import DataPreprocessor
 
