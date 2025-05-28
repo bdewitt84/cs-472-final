@@ -30,3 +30,19 @@ Arguments
 '''
 def always_one(a):
     return np.ones(len(a))
+
+'''
+Apply the element wise inverse on a list
+Arguments:
+    - X: a list of numbers
+'''
+def inverse(X):
+    return [(float('inf') if x==0 else 1/x) for x in X]
+
+'''
+Apply the element wise negative on a list
+Arguments:
+    - X: a list of numbers
+'''
+def negative(X):
+    return [-x for x in X]
