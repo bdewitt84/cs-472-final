@@ -6,7 +6,7 @@ Author: Makani Buckley
 Date Added: May 21, 2025
 '''
 
-from math import sqrt
+from math import sqrt, exp
 
 '''
 Compute the euclidian distance between two vectors
@@ -46,3 +46,31 @@ Arguments:
 '''
 def negative(X):
     return [-x for x in X]
+
+'''
+A function in the shape of a hump applied element wise to a list
+Arguments:
+    - X: a list of numbers
+'''
+def hump(X):
+    return [exp(-(x*x)) for x in X]
+
+'''
+Exponential decay applied element wise to a list
+Arguments:
+    - X: a list of numbers
+'''
+def decay(X):
+    return [exp(-x) for x in X]
+
+'''
+Negative applied element wise to a list but normalized to squash output between
+[0, 1]
+Arguments
+    - X: a list of numbers
+'''
+def normalized_negative(X):
+    _max = max(X)
+    if _max == 0:
+        return [0] * len(X)
+    return [-x/_max + 1 for x in X]
