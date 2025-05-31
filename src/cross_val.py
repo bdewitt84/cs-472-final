@@ -1,6 +1,25 @@
+# ./src/cross_val.py
+
+"""
+Leave-one-out cross validation
+"""
+
+
 import pandas
 
+
+__author__ = "Brett DeWitt"
+__date__ = "5.27.2025"
+
+
 def llocv(model, examples: pandas.DataFrame, labels: pandas.DataFrame):
+    """
+    Performs leave-one-out cross-validation using the given model on the given examples and labels.
+    :param model: an initialized instance of a sklearn-compatible model
+    :param examples: Dataframe of examples
+    :param labels: Dataframe of labels
+    :return: float representing the cross-validation accuracy of the model on the given examples and labels
+    """
     num_examples = len(examples)
     correct = 0
 
@@ -26,7 +45,6 @@ if __name__ == '__main__':
     from knn import KNearestNeighbors
 
     from utils import always_one, euclidian
-    from util.helper import accuracy_score
 
     # Read in training data
     train_data = pd.read_csv(r'data/train.csv')
