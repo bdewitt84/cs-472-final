@@ -6,7 +6,7 @@ Author: Makani Buckley
 Date Added: May 21, 2025
 '''
 
-from math import sqrt, exp
+from math import sqrt, exp, pow
 
 '''
 Compute the euclidian distance between two vectors
@@ -22,6 +22,23 @@ def euclidian(a, b):
         sum += (ai - bi) * (ai - bi) # compute (ai - bi) ^ 2
 
     return sqrt(sum)
+
+'''
+Compute the minkowski distance between two vectors
+Arguments
+    - a, b: two vectors of length n each
+    - p: the parameter for minkowski distance to exponentiate by
+'''
+
+def minkowski(a, b, p):
+    if len(a) != len(b):
+        raise ValueException("Vectors are of different size")
+
+    sum = 0
+    for ai, bi in zip(a, b):
+        sum += pow(abs(ai - bi), p) # compute (ai - bi) ^ p
+
+    return pow(sum, 1/p)
 
 '''
 Take a list and returns a list of 1's of the same length
