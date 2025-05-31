@@ -1,16 +1,21 @@
 #./src/eval_k.py
-
 """
 Evaluates accuracy of model at various values of k
 """
 
-import pandas as pd
 
+# Imports
+import pandas as pd
 
 from preprocessor.data_preprocessor import DataPreprocessor
 from src.knn import KNearestNeighbors
 from src.utils import always_one, euclidian
 from cross_val import llocv
+
+
+# Metadata
+__author__ = "Brett DeWitt"
+__date__ = "2025/5/27"
 
 
 if __name__ == "__main__":
