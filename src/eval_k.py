@@ -40,24 +40,17 @@ if __name__ == "__main__":
     }
 
     # Get odd values of K from 1 to 21
-    k_vals = [ k for k in range(1, 22) if k % 2 == 1]
+    k_vals = [ k for k in range(1, 22, 2)]
+
+    data = "k,accuracy\n"
+    for k in k_vals:
+        params.update({
+            "n_neighbors": k,
+        })
+        classifier = KNearestNeighbors(**params)
+        accuracy = llocv(classifier, train_features, train_labels)
+        print(k, accuracy)
+        data += f"{k},{accuracy}\n"
 
     with open("./eval_k_out.csv", "w") as f:
-
-        data = "k,accuracy\n"
         f.write(data)
-        print(data)
-
-        for k in k_vals:
-            params.update({
-                "n_neighbors": k,
-            })
-
-            classifier = KNearestNeighbors(**params)
-
-            accuracy = llocv(classifier, train_features, train_labels)
-
-            data = f"{k},{accuracy}"
-
-            f.write(data)
-            print(data)
