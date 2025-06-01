@@ -65,6 +65,6 @@ def grid_search (
             print("%d\t%s\t%s\t%s\t%s\t%f\t%f\t%f" % (n_neighbors, w_name, d_name, w_par_name, d_par_name, train_accuracy, val_accuracy, cross_val_accuracy))
             if cross_val_accuracy > best_acc:
                 best_op = (n_neighbors, (w_name, (w_func, (w_par_name, w_par))), (d_name, (d_func, (d_par_name, d_par))))
-                best_acc = val_accuracy
+                best_acc = cross_val_accuracy
 
     return best_op, best_acc
