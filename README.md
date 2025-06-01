@@ -4,16 +4,26 @@
 
 ## Misc notes
 
-survival 	Survival 	0 = No, 1 = Yes
-pclass 	Ticket class 	1 = 1st, 2 = 2nd, 3 = 3rd
-sex 	Sex 	
-Age 	Age in years 	
-sibsp 	# of siblings / spouses aboard the Titanic 	
-parch 	# of parents / children aboard the Titanic 	
-ticket 	Ticket number 	
-fare 	Passenger fare 	
-cabin 	Cabin number 	
-embarked 	Port of Embarkation 	C = Cherbourg, Q = Queenstown, S = Southampton
+survival 	Survival 	0 = No, 1 = Yes 
+
+pclass 	Ticket class 	1 = 1st, 2 = 2nd, 3 = 3rd 
+
+sex 	Sex 
+
+Age 	Age in years 
+
+sibsp 	# of siblings / spouses aboard the Titanic 
+
+parch 	# of parents / children aboard the Titanic 
+
+ticket 	Ticket number 
+
+fare 	Passenger fare 
+
+cabin 	Cabin number 
+
+embarked 	Port of Embarkation 	C = Cherbourg, Q = Queenstown, S = Southampton 
+
 
 This study suggests min-max may perform better than z-score when using KNN:  
 https://ijiis.org/index.php/IJIIS/article/view/73/0
