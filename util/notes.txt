@@ -1,0 +1,20 @@
+#./scripts/ffi_k.py
+k = 15
+accuracy = 0.823
+Sex
+SibSp
+Age
+Pclass_3
+Parch
+Embarked_S
+
+#./scripts/bfe_k.py
+k = 17
+accuracy = 0.823
+Embarked_Q
+Age
+Parch
+Pclass_2
+Pclass_1
+Embarked_C
+Sex
