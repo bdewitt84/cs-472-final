@@ -91,3 +91,16 @@ def normalized_negative(X):
     if _max == 0:
         return [0] * len(X)
     return [-x/_max + 1 for x in X]
+
+'''
+Measure accuracy as a porportion of correct predictions
+Arguments
+    - y_pred: the classes predicted by the model for the samples
+    - y_true: the true classes of the samples
+'''
+def accuracy_score(y_pred, y_true):
+    if len(y_pred) != len(y_true):
+        raise ValueException("The y_pred and y_true have different lengths")
+
+    correct = [a == b for a, b in zip(y_pred, y_true)]
+    return sum(correct) / len(y_pred)
