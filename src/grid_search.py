@@ -63,7 +63,7 @@ def grid_search (
             val_accuracy = accuracy_score(y_pred_val, val_labels)
             cross_val_accuracy = llocv(classifier, train_features, train_labels)
             print("%d\t%s\t%s\t%s\t%s\t%f\t%f\t%f" % (n_neighbors, w_name, d_name, w_par_name, d_par_name, train_accuracy, val_accuracy, cross_val_accuracy))
-            if val_accuracy > best_acc:
+            if cross_val_accuracy > best_acc:
                 best_op = (n_neighbors, (w_name, (w_func, (w_par_name, w_par))), (d_name, (d_func, (d_par_name, d_par))))
                 best_acc = val_accuracy
 

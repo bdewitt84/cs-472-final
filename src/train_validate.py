@@ -32,7 +32,7 @@ if __name__ == "__main__":
     val_features = val_dp.get_features('Survived')
     val_labels = val_dp.get_labels('Survived')
 
-    K = [5]
+    K = range(1,21)
     WEIGHTS = {
         "Always One": (always_one, {"Empty": {}}),
         "Inverse Distance": (inverse, {"Empty": {}}),
