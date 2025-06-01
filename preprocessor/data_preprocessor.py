@@ -189,6 +189,9 @@ if __name__ == '__main__':
     df_raw = pd.read_csv('../kaggle-titanic.csv')
     processor = DataPreprocessor(df_raw)
 
+    # Shuffle features
+    processor.shuffle_rows(42)
+
     # Drop irrelevant features
     processor.drop_features(['Name', 'Ticket', 'Cabin', 'PassengerId'])
 
