@@ -1,12 +1,18 @@
 #./src/bfe.py
 """
-Backward features selection
-Finds the most effective features to eliminate from a set
+Backward feature elimination over selected range of k
 """
 
 
 # Imports
 import pandas as pd
+
+from preprocessor.data_preprocessor import DataPreprocessor
+from src.utils import always_one, euclidian
+from src.knn import KNearestNeighbors
+from src.cross_val import llocv
+from src.bfe import backward_feature_elimination
+from pprint import pprint
 
 
 # Metadata
@@ -14,39 +20,8 @@ __author__ = "Brett DeWitt"
 __date__ = "2025.5.30"
 
 
-def backward_feature_elimination(model, features:pd.DataFrame, labels:pd.DataFrame, evaluator:callable):
-    column_names = features.columns.tolist()
-    drop_order: [(str, int)] = []
-
-    for _ in range(len(column_names)):
-        max_accuracy = 0
-        print(f"\n Considering: {column_names}")
-        for column_name in column_names:
-            print(f"Evaluating without {column_name}: ", end='')
-            cur_features = features.drop(column_name, axis=1)
-            score = evaluator(model, cur_features, labels)
-            print(f"{score} ", end='')
-            if score > max_accuracy:
-                max_accuracy = score
-                drop_column = column_name
-                print("MAX", end='')
-            print("\n", end='')
-        print("Excluding", drop_column, max_accuracy)
-        drop_order.append((drop_column, max_accuracy))
-        features = features.drop(drop_column, axis=1)
-        column_names.remove(drop_column)
-
-    return drop_order
-
-
 
 if __name__ == "__main__":
-
-    from preprocessor.data_preprocessor import DataPreprocessor
-    from src.utils import always_one, euclidian
-    from src.knn import KNearestNeighbors
-    from src.cross_val import llocv
-    from pprint import pprint
 
     # Read in training data
     train_data = pd.read_csv(r'data/train.csv')
@@ -57,7 +32,11 @@ if __name__ == "__main__":
     train_features = train_dp.get_features('Survived')
     train_labels = train_dp.get_labels('Survived')
 
-    for k in range(11, 18, 2):
+    # Parameters
+    MIN_K = 11
+    MAX_K = 17
+
+    for k in range(MIN_K, MAX_K+1, 2):
         params = {
             "n_neighbors": k,
             "weights": always_one,
