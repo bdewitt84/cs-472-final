@@ -12,6 +12,8 @@ def correlation(features:pd.DataFrame, labels:pd.DataFrame):
     return corrs
 
 if __name__ == '__main__':
+    """Example script for correlation()
+    outputs feature and Pearson correlation to csv"""
     from preprocessor.data_preprocessor import DataPreprocessor
     from pprint import pprint
 
@@ -26,3 +28,12 @@ if __name__ == '__main__':
 
     corrs = correlation(train_features, train_labels)
     pprint(corrs)
+
+
+    data = "feature,correlation\n"
+    for feature, correlation in corrs:
+        data += f"{feature},{correlation}\n"
+
+    with open("./eval_corr_xval_out.csv", "w") as f:
+        f.write(data)
+
