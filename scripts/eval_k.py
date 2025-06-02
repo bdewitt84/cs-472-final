@@ -10,7 +10,7 @@ import pandas as pd
 from preprocessor.data_preprocessor import DataPreprocessor
 from src.knn import KNearestNeighbors
 from src.utils import always_one, euclidian
-from cross_val import llocv
+from src.cross_val import llocv
 
 
 # Metadata
@@ -57,5 +57,5 @@ if __name__ == "__main__":
         print(k, accuracy)
         data += f"{k},{accuracy}\n"
 
-    with open("./eval_k_out.csv", "w") as f:
+    with open("./eval_k_xval_out.csv", "w") as f:
         f.write(data)
