@@ -1,0 +1,1202 @@
+N_NEIGHBORS	WEIGHTS	DISTANCE	WEIGHTS PARAMS	DIST PARAMS	TRAIN ACC	VAL ACC	CROSS VAL ACC
+1	Always One	Minkowski	Empty	1	0.908507	0.691011	0.733547
+1	Always One	Minkowski	Empty	2	0.910112	0.707865	0.736758
+1	Always One	Minkowski	Empty	3	0.910112	0.707865	0.738363
+1	Always One	Minkowski	Empty	4	0.910112	0.707865	0.738363
+1	Always One	Minkowski	Empty	5	0.910112	0.707865	0.738363
+1	Always One	Minkowski	Empty	6	0.910112	0.707865	0.738363
+1	Always One	Minkowski	Empty	7	0.910112	0.707865	0.738363
+1	Always One	Minkowski	Empty	8	0.876404	0.674157	0.728732
+1	Always One	Minkowski	Empty	9	0.876404	0.674157	0.727127
+1	Always One	Minkowski	Empty	10	0.913323	0.730337	0.743178
+1	Inverse Distance	Minkowski	Empty	1	0.908507	0.691011	0.733547
+1	Inverse Distance	Minkowski	Empty	2	0.910112	0.707865	0.736758
+1	Inverse Distance	Minkowski	Empty	3	0.910112	0.707865	0.738363
+1	Inverse Distance	Minkowski	Empty	4	0.910112	0.707865	0.738363
+1	Inverse Distance	Minkowski	Empty	5	0.910112	0.707865	0.738363
+1	Inverse Distance	Minkowski	Empty	6	0.910112	0.707865	0.738363
+1	Inverse Distance	Minkowski	Empty	7	0.910112	0.707865	0.738363
+1	Inverse Distance	Minkowski	Empty	8	0.876404	0.674157	0.728732
+1	Inverse Distance	Minkowski	Empty	9	0.876404	0.674157	0.727127
+1	Inverse Distance	Minkowski	Empty	10	0.913323	0.730337	0.743178
+1	Negative Distance	Minkowski	Empty	1	0.908507	0.691011	0.733547
+1	Negative Distance	Minkowski	Empty	2	0.910112	0.707865	0.736758
+1	Negative Distance	Minkowski	Empty	3	0.910112	0.707865	0.738363
+1	Negative Distance	Minkowski	Empty	4	0.910112	0.707865	0.738363
+1	Negative Distance	Minkowski	Empty	5	0.910112	0.707865	0.738363
+1	Negative Distance	Minkowski	Empty	6	0.910112	0.707865	0.738363
+1	Negative Distance	Minkowski	Empty	7	0.910112	0.707865	0.738363
+1	Negative Distance	Minkowski	Empty	8	0.876404	0.674157	0.728732
+1	Negative Distance	Minkowski	Empty	9	0.876404	0.674157	0.727127
+1	Negative Distance	Minkowski	Empty	10	0.913323	0.730337	0.743178
+1	Hump	Minkowski	Empty	1	0.908507	0.691011	0.733547
+1	Hump	Minkowski	Empty	2	0.910112	0.707865	0.736758
+1	Hump	Minkowski	Empty	3	0.910112	0.707865	0.738363
+1	Hump	Minkowski	Empty	4	0.910112	0.707865	0.738363
+1	Hump	Minkowski	Empty	5	0.910112	0.707865	0.738363
+1	Hump	Minkowski	Empty	6	0.910112	0.707865	0.738363
+1	Hump	Minkowski	Empty	7	0.910112	0.707865	0.738363
+1	Hump	Minkowski	Empty	8	0.876404	0.674157	0.728732
+1	Hump	Minkowski	Empty	9	0.876404	0.674157	0.727127
+1	Hump	Minkowski	Empty	10	0.913323	0.730337	0.743178
+1	Decay	Minkowski	Empty	1	0.908507	0.691011	0.733547
+1	Decay	Minkowski	Empty	2	0.910112	0.707865	0.736758
+1	Decay	Minkowski	Empty	3	0.910112	0.707865	0.738363
+1	Decay	Minkowski	Empty	4	0.910112	0.707865	0.738363
+1	Decay	Minkowski	Empty	5	0.910112	0.707865	0.738363
+1	Decay	Minkowski	Empty	6	0.910112	0.707865	0.738363
+1	Decay	Minkowski	Empty	7	0.910112	0.707865	0.738363
+1	Decay	Minkowski	Empty	8	0.876404	0.674157	0.728732
+1	Decay	Minkowski	Empty	9	0.876404	0.674157	0.727127
+1	Decay	Minkowski	Empty	10	0.913323	0.730337	0.743178
+1	Normalized Negative Distance	Minkowski	Empty	1	0.908507	0.691011	0.733547
+1	Normalized Negative Distance	Minkowski	Empty	2	0.910112	0.707865	0.736758
+1	Normalized Negative Distance	Minkowski	Empty	3	0.910112	0.707865	0.738363
+1	Normalized Negative Distance	Minkowski	Empty	4	0.910112	0.707865	0.738363
+1	Normalized Negative Distance	Minkowski	Empty	5	0.910112	0.707865	0.738363
+1	Normalized Negative Distance	Minkowski	Empty	6	0.910112	0.707865	0.738363
+1	Normalized Negative Distance	Minkowski	Empty	7	0.910112	0.707865	0.738363
+1	Normalized Negative Distance	Minkowski	Empty	8	0.876404	0.674157	0.728732
+1	Normalized Negative Distance	Minkowski	Empty	9	0.876404	0.674157	0.727127
+1	Normalized Negative Distance	Minkowski	Empty	10	0.913323	0.730337	0.743178
+2	Always One	Minkowski	Empty	1	0.849117	0.764045	0.751204
+2	Always One	Minkowski	Empty	2	0.849117	0.764045	0.760835
+2	Always One	Minkowski	Empty	3	0.850722	0.758427	0.751204
+2	Always One	Minkowski	Empty	4	0.850722	0.758427	0.751204
+2	Always One	Minkowski	Empty	5	0.850722	0.758427	0.751204
+2	Always One	Minkowski	Empty	6	0.850722	0.758427	0.751204
+2	Always One	Minkowski	Empty	7	0.850722	0.758427	0.751204
+2	Always One	Minkowski	Empty	8	0.849117	0.752809	0.751204
+2	Always One	Minkowski	Empty	9	0.849117	0.752809	0.751204
+2	Always One	Minkowski	Empty	10	0.849117	0.764045	0.752809
+2	Inverse Distance	Minkowski	Empty	1	0.927769	0.735955	0.749599
+2	Inverse Distance	Minkowski	Empty	2	0.929374	0.741573	0.756019
+2	Inverse Distance	Minkowski	Empty	3	0.929374	0.741573	0.747994
+2	Inverse Distance	Minkowski	Empty	4	0.929374	0.741573	0.747994
+2	Inverse Distance	Minkowski	Empty	5	0.929374	0.741573	0.747994
+2	Inverse Distance	Minkowski	Empty	6	0.929374	0.741573	0.747994
+2	Inverse Distance	Minkowski	Empty	7	0.929374	0.741573	0.747994
+2	Inverse Distance	Minkowski	Empty	8	0.929374	0.741573	0.752809
+2	Inverse Distance	Minkowski	Empty	9	0.929374	0.741573	0.752809
+2	Inverse Distance	Minkowski	Empty	10	0.929374	0.741573	0.756019
+2	Negative Distance	Minkowski	Empty	1	0.927769	0.735955	0.749599
+2	Negative Distance	Minkowski	Empty	2	0.929374	0.741573	0.756019
+2	Negative Distance	Minkowski	Empty	3	0.929374	0.741573	0.747994
+2	Negative Distance	Minkowski	Empty	4	0.929374	0.741573	0.747994
+2	Negative Distance	Minkowski	Empty	5	0.929374	0.741573	0.747994
+2	Negative Distance	Minkowski	Empty	6	0.929374	0.741573	0.747994
+2	Negative Distance	Minkowski	Empty	7	0.929374	0.741573	0.747994
+2	Negative Distance	Minkowski	Empty	8	0.929374	0.741573	0.752809
+2	Negative Distance	Minkowski	Empty	9	0.929374	0.741573	0.752809
+2	Negative Distance	Minkowski	Empty	10	0.929374	0.741573	0.756019
+2	Hump	Minkowski	Empty	1	0.927769	0.730337	0.751204
+2	Hump	Minkowski	Empty	2	0.929374	0.735955	0.757624
+2	Hump	Minkowski	Empty	3	0.929374	0.735955	0.749599
+2	Hump	Minkowski	Empty	4	0.929374	0.735955	0.749599
+2	Hump	Minkowski	Empty	5	0.929374	0.735955	0.749599
+2	Hump	Minkowski	Empty	6	0.929374	0.735955	0.749599
+2	Hump	Minkowski	Empty	7	0.929374	0.735955	0.749599
+2	Hump	Minkowski	Empty	8	0.929374	0.735955	0.754414
+2	Hump	Minkowski	Empty	9	0.929374	0.735955	0.754414
+2	Hump	Minkowski	Empty	10	0.929374	0.735955	0.757624
+2	Decay	Minkowski	Empty	1	0.927769	0.735955	0.749599
+2	Decay	Minkowski	Empty	2	0.929374	0.741573	0.756019
+2	Decay	Minkowski	Empty	3	0.929374	0.741573	0.747994
+2	Decay	Minkowski	Empty	4	0.929374	0.741573	0.747994
+2	Decay	Minkowski	Empty	5	0.929374	0.741573	0.747994
+2	Decay	Minkowski	Empty	6	0.929374	0.741573	0.747994
+2	Decay	Minkowski	Empty	7	0.929374	0.741573	0.747994
+2	Decay	Minkowski	Empty	8	0.929374	0.741573	0.752809
+2	Decay	Minkowski	Empty	9	0.929374	0.741573	0.752809
+2	Decay	Minkowski	Empty	10	0.929374	0.741573	0.756019
+2	Normalized Negative Distance	Minkowski	Empty	1	0.927769	0.735955	0.749599
+2	Normalized Negative Distance	Minkowski	Empty	2	0.929374	0.741573	0.756019
+2	Normalized Negative Distance	Minkowski	Empty	3	0.929374	0.741573	0.747994
+2	Normalized Negative Distance	Minkowski	Empty	4	0.929374	0.741573	0.747994
+2	Normalized Negative Distance	Minkowski	Empty	5	0.929374	0.741573	0.747994
+2	Normalized Negative Distance	Minkowski	Empty	6	0.929374	0.741573	0.747994
+2	Normalized Negative Distance	Minkowski	Empty	7	0.929374	0.741573	0.747994
+2	Normalized Negative Distance	Minkowski	Empty	8	0.929374	0.741573	0.752809
+2	Normalized Negative Distance	Minkowski	Empty	9	0.929374	0.741573	0.752809
+2	Normalized Negative Distance	Minkowski	Empty	10	0.929374	0.741573	0.756019
+3	Always One	Minkowski	Empty	1	0.857143	0.764045	0.786517
+3	Always One	Minkowski	Empty	2	0.852327	0.758427	0.778491
+3	Always One	Minkowski	Empty	3	0.850722	0.758427	0.778491
+3	Always One	Minkowski	Empty	4	0.850722	0.758427	0.778491
+3	Always One	Minkowski	Empty	5	0.850722	0.758427	0.778491
+3	Always One	Minkowski	Empty	6	0.850722	0.758427	0.778491
+3	Always One	Minkowski	Empty	7	0.850722	0.758427	0.781701
+3	Always One	Minkowski	Empty	8	0.847512	0.741573	0.772071
+3	Always One	Minkowski	Empty	9	0.847512	0.741573	0.773676
+3	Always One	Minkowski	Empty	10	0.842697	0.741573	0.775281
+3	Inverse Distance	Minkowski	Empty	1	0.927769	0.730337	0.767255
+3	Inverse Distance	Minkowski	Empty	2	0.927769	0.724719	0.768860
+3	Inverse Distance	Minkowski	Empty	3	0.927769	0.724719	0.759230
+3	Inverse Distance	Minkowski	Empty	4	0.927769	0.724719	0.759230
+3	Inverse Distance	Minkowski	Empty	5	0.927769	0.724719	0.759230
+3	Inverse Distance	Minkowski	Empty	6	0.927769	0.724719	0.759230
+3	Inverse Distance	Minkowski	Empty	7	0.927769	0.724719	0.762440
+3	Inverse Distance	Minkowski	Empty	8	0.927769	0.724719	0.768860
+3	Inverse Distance	Minkowski	Empty	9	0.927769	0.724719	0.768860
+3	Inverse Distance	Minkowski	Empty	10	0.927769	0.724719	0.770465
+3	Negative Distance	Minkowski	Empty	1	0.855538	0.696629	0.696629
+3	Negative Distance	Minkowski	Empty	2	0.857143	0.691011	0.703050
+3	Negative Distance	Minkowski	Empty	3	0.858748	0.696629	0.693419
+3	Negative Distance	Minkowski	Empty	4	0.858748	0.696629	0.693419
+3	Negative Distance	Minkowski	Empty	5	0.858748	0.696629	0.693419
+3	Negative Distance	Minkowski	Empty	6	0.858748	0.696629	0.693419
+3	Negative Distance	Minkowski	Empty	7	0.858748	0.696629	0.690209
+3	Negative Distance	Minkowski	Empty	8	0.861958	0.713483	0.698234
+3	Negative Distance	Minkowski	Empty	9	0.861958	0.713483	0.696629
+3	Negative Distance	Minkowski	Empty	10	0.860353	0.702247	0.706260
+3	Hump	Minkowski	Empty	1	0.861958	0.747191	0.781701
+3	Hump	Minkowski	Empty	2	0.857143	0.747191	0.773676
+3	Hump	Minkowski	Empty	3	0.857143	0.741573	0.773676
+3	Hump	Minkowski	Empty	4	0.857143	0.741573	0.775281
+3	Hump	Minkowski	Empty	5	0.857143	0.741573	0.775281
+3	Hump	Minkowski	Empty	6	0.857143	0.741573	0.775281
+3	Hump	Minkowski	Empty	7	0.857143	0.741573	0.778491
+3	Hump	Minkowski	Empty	8	0.855538	0.741573	0.770465
+3	Hump	Minkowski	Empty	9	0.855538	0.741573	0.770465
+3	Hump	Minkowski	Empty	10	0.847512	0.724719	0.775281
+3	Decay	Minkowski	Empty	1	0.863563	0.752809	0.783307
+3	Decay	Minkowski	Empty	2	0.858748	0.741573	0.776886
+3	Decay	Minkowski	Empty	3	0.858748	0.741573	0.776886
+3	Decay	Minkowski	Empty	4	0.858748	0.741573	0.776886
+3	Decay	Minkowski	Empty	5	0.858748	0.741573	0.776886
+3	Decay	Minkowski	Empty	6	0.858748	0.741573	0.776886
+3	Decay	Minkowski	Empty	7	0.858748	0.741573	0.780096
+3	Decay	Minkowski	Empty	8	0.857143	0.741573	0.770465
+3	Decay	Minkowski	Empty	9	0.857143	0.741573	0.772071
+3	Decay	Minkowski	Empty	10	0.849117	0.724719	0.775281
+3	Normalized Negative Distance	Minkowski	Empty	1	0.927769	0.735955	0.751204
+3	Normalized Negative Distance	Minkowski	Empty	2	0.927769	0.735955	0.754414
+3	Normalized Negative Distance	Minkowski	Empty	3	0.927769	0.735955	0.744783
+3	Normalized Negative Distance	Minkowski	Empty	4	0.927769	0.735955	0.744783
+3	Normalized Negative Distance	Minkowski	Empty	5	0.927769	0.735955	0.744783
+3	Normalized Negative Distance	Minkowski	Empty	6	0.927769	0.735955	0.744783
+3	Normalized Negative Distance	Minkowski	Empty	7	0.927769	0.735955	0.744783
+3	Normalized Negative Distance	Minkowski	Empty	8	0.927769	0.735955	0.754414
+3	Normalized Negative Distance	Minkowski	Empty	9	0.927769	0.735955	0.754414
+3	Normalized Negative Distance	Minkowski	Empty	10	0.927769	0.735955	0.759230
+4	Always One	Minkowski	Empty	1	0.834671	0.752809	0.784912
+4	Always One	Minkowski	Empty	2	0.831461	0.747191	0.783307
+4	Always One	Minkowski	Empty	3	0.829856	0.747191	0.783307
+4	Always One	Minkowski	Empty	4	0.829856	0.747191	0.783307
+4	Always One	Minkowski	Empty	5	0.829856	0.747191	0.783307
+4	Always One	Minkowski	Empty	6	0.829856	0.747191	0.783307
+4	Always One	Minkowski	Empty	7	0.829856	0.747191	0.781701
+4	Always One	Minkowski	Empty	8	0.826645	0.735955	0.776886
+4	Always One	Minkowski	Empty	9	0.828250	0.735955	0.776886
+4	Always One	Minkowski	Empty	10	0.828250	0.758427	0.789727
+4	Inverse Distance	Minkowski	Empty	1	0.927769	0.713483	0.768860
+4	Inverse Distance	Minkowski	Empty	2	0.927769	0.707865	0.768860
+4	Inverse Distance	Minkowski	Empty	3	0.927769	0.707865	0.760835
+4	Inverse Distance	Minkowski	Empty	4	0.927769	0.707865	0.760835
+4	Inverse Distance	Minkowski	Empty	5	0.927769	0.707865	0.760835
+4	Inverse Distance	Minkowski	Empty	6	0.927769	0.707865	0.760835
+4	Inverse Distance	Minkowski	Empty	7	0.927769	0.707865	0.760835
+4	Inverse Distance	Minkowski	Empty	8	0.927769	0.707865	0.765650
+4	Inverse Distance	Minkowski	Empty	9	0.927769	0.707865	0.765650
+4	Inverse Distance	Minkowski	Empty	10	0.927769	0.707865	0.773676
+4	Negative Distance	Minkowski	Empty	1	0.768860	0.629213	0.634029
+4	Negative Distance	Minkowski	Empty	2	0.768860	0.634831	0.637239
+4	Negative Distance	Minkowski	Empty	3	0.768860	0.634831	0.630819
+4	Negative Distance	Minkowski	Empty	4	0.768860	0.634831	0.630819
+4	Negative Distance	Minkowski	Empty	5	0.768860	0.634831	0.630819
+4	Negative Distance	Minkowski	Empty	6	0.770465	0.634831	0.630819
+4	Negative Distance	Minkowski	Empty	7	0.770465	0.634831	0.632424
+4	Negative Distance	Minkowski	Empty	8	0.770465	0.640449	0.635634
+4	Negative Distance	Minkowski	Empty	9	0.772071	0.640449	0.634029
+4	Negative Distance	Minkowski	Empty	10	0.776886	0.623596	0.646870
+4	Hump	Minkowski	Empty	1	0.865169	0.752809	0.776886
+4	Hump	Minkowski	Empty	2	0.858748	0.752809	0.776886
+4	Hump	Minkowski	Empty	3	0.858748	0.752809	0.776886
+4	Hump	Minkowski	Empty	4	0.858748	0.752809	0.778491
+4	Hump	Minkowski	Empty	5	0.858748	0.752809	0.778491
+4	Hump	Minkowski	Empty	6	0.858748	0.752809	0.778491
+4	Hump	Minkowski	Empty	7	0.858748	0.752809	0.778491
+4	Hump	Minkowski	Empty	8	0.858748	0.752809	0.775281
+4	Hump	Minkowski	Empty	9	0.858748	0.752809	0.775281
+4	Hump	Minkowski	Empty	10	0.861958	0.758427	0.783307
+4	Decay	Minkowski	Empty	1	0.868379	0.752809	0.776886
+4	Decay	Minkowski	Empty	2	0.866774	0.747191	0.776886
+4	Decay	Minkowski	Empty	3	0.866774	0.747191	0.776886
+4	Decay	Minkowski	Empty	4	0.866774	0.747191	0.776886
+4	Decay	Minkowski	Empty	5	0.866774	0.747191	0.776886
+4	Decay	Minkowski	Empty	6	0.866774	0.747191	0.776886
+4	Decay	Minkowski	Empty	7	0.866774	0.747191	0.776886
+4	Decay	Minkowski	Empty	8	0.866774	0.747191	0.773676
+4	Decay	Minkowski	Empty	9	0.866774	0.747191	0.773676
+4	Decay	Minkowski	Empty	10	0.869984	0.747191	0.781701
+4	Normalized Negative Distance	Minkowski	Empty	1	0.910112	0.735955	0.754414
+4	Normalized Negative Distance	Minkowski	Empty	2	0.911717	0.735955	0.754414
+4	Normalized Negative Distance	Minkowski	Empty	3	0.911717	0.730337	0.747994
+4	Normalized Negative Distance	Minkowski	Empty	4	0.911717	0.730337	0.747994
+4	Normalized Negative Distance	Minkowski	Empty	5	0.910112	0.730337	0.747994
+4	Normalized Negative Distance	Minkowski	Empty	6	0.911717	0.730337	0.747994
+4	Normalized Negative Distance	Minkowski	Empty	7	0.911717	0.730337	0.747994
+4	Normalized Negative Distance	Minkowski	Empty	8	0.911717	0.730337	0.751204
+4	Normalized Negative Distance	Minkowski	Empty	9	0.911717	0.730337	0.751204
+4	Normalized Negative Distance	Minkowski	Empty	10	0.910112	0.730337	0.759230
+5	Always One	Minkowski	Empty	1	0.842697	0.775281	0.792937
+5	Always One	Minkowski	Empty	2	0.837881	0.758427	0.792937
+5	Always One	Minkowski	Empty	3	0.837881	0.764045	0.791332
+5	Always One	Minkowski	Empty	4	0.837881	0.764045	0.791332
+5	Always One	Minkowski	Empty	5	0.837881	0.764045	0.791332
+5	Always One	Minkowski	Empty	6	0.837881	0.764045	0.791332
+5	Always One	Minkowski	Empty	7	0.837881	0.764045	0.789727
+5	Always One	Minkowski	Empty	8	0.836276	0.764045	0.788122
+5	Always One	Minkowski	Empty	9	0.836276	0.764045	0.786517
+5	Always One	Minkowski	Empty	10	0.839486	0.758427	0.789727
+5	Inverse Distance	Minkowski	Empty	1	0.927769	0.724719	0.773676
+5	Inverse Distance	Minkowski	Empty	2	0.914928	0.696629	0.773676
+5	Inverse Distance	Minkowski	Empty	3	0.914928	0.702247	0.767255
+5	Inverse Distance	Minkowski	Empty	4	0.914928	0.702247	0.767255
+5	Inverse Distance	Minkowski	Empty	5	0.914928	0.702247	0.767255
+5	Inverse Distance	Minkowski	Empty	6	0.914928	0.702247	0.767255
+5	Inverse Distance	Minkowski	Empty	7	0.914928	0.702247	0.765650
+5	Inverse Distance	Minkowski	Empty	8	0.914928	0.702247	0.770465
+5	Inverse Distance	Minkowski	Empty	9	0.914928	0.702247	0.770465
+5	Inverse Distance	Minkowski	Empty	10	0.927769	0.707865	0.778491
+5	Negative Distance	Minkowski	Empty	1	0.693419	0.561798	0.585875
+5	Negative Distance	Minkowski	Empty	2	0.690209	0.567416	0.573034
+5	Negative Distance	Minkowski	Empty	3	0.690209	0.556180	0.569823
+5	Negative Distance	Minkowski	Empty	4	0.690209	0.556180	0.569823
+5	Negative Distance	Minkowski	Empty	5	0.690209	0.556180	0.569823
+5	Negative Distance	Minkowski	Empty	6	0.690209	0.556180	0.569823
+5	Negative Distance	Minkowski	Empty	7	0.695024	0.556180	0.571429
+5	Negative Distance	Minkowski	Empty	8	0.690209	0.550562	0.571429
+5	Negative Distance	Minkowski	Empty	9	0.691814	0.561798	0.574639
+5	Negative Distance	Minkowski	Empty	10	0.701445	0.584270	0.587480
+5	Hump	Minkowski	Empty	1	0.847512	0.758427	0.788122
+5	Hump	Minkowski	Empty	2	0.842697	0.752809	0.788122
+5	Hump	Minkowski	Empty	3	0.842697	0.752809	0.786517
+5	Hump	Minkowski	Empty	4	0.842697	0.752809	0.788122
+5	Hump	Minkowski	Empty	5	0.842697	0.752809	0.786517
+5	Hump	Minkowski	Empty	6	0.842697	0.752809	0.786517
+5	Hump	Minkowski	Empty	7	0.842697	0.752809	0.784912
+5	Hump	Minkowski	Empty	8	0.841091	0.752809	0.784912
+5	Hump	Minkowski	Empty	9	0.841091	0.752809	0.784912
+5	Hump	Minkowski	Empty	10	0.842697	0.747191	0.788122
+5	Decay	Minkowski	Empty	1	0.847512	0.769663	0.789727
+5	Decay	Minkowski	Empty	2	0.842697	0.752809	0.792937
+5	Decay	Minkowski	Empty	3	0.842697	0.758427	0.789727
+5	Decay	Minkowski	Empty	4	0.842697	0.758427	0.789727
+5	Decay	Minkowski	Empty	5	0.842697	0.758427	0.789727
+5	Decay	Minkowski	Empty	6	0.842697	0.758427	0.789727
+5	Decay	Minkowski	Empty	7	0.842697	0.758427	0.788122
+5	Decay	Minkowski	Empty	8	0.841091	0.758427	0.788122
+5	Decay	Minkowski	Empty	9	0.841091	0.758427	0.786517
+5	Decay	Minkowski	Empty	10	0.842697	0.752809	0.789727
+5	Normalized Negative Distance	Minkowski	Empty	1	0.886035	0.735955	0.762440
+5	Normalized Negative Distance	Minkowski	Empty	2	0.876404	0.713483	0.760835
+5	Normalized Negative Distance	Minkowski	Empty	3	0.876404	0.713483	0.756019
+5	Normalized Negative Distance	Minkowski	Empty	4	0.876404	0.713483	0.756019
+5	Normalized Negative Distance	Minkowski	Empty	5	0.874799	0.713483	0.756019
+5	Normalized Negative Distance	Minkowski	Empty	6	0.876404	0.713483	0.756019
+5	Normalized Negative Distance	Minkowski	Empty	7	0.876404	0.713483	0.756019
+5	Normalized Negative Distance	Minkowski	Empty	8	0.876404	0.713483	0.757624
+5	Normalized Negative Distance	Minkowski	Empty	9	0.876404	0.713483	0.757624
+5	Normalized Negative Distance	Minkowski	Empty	10	0.887640	0.730337	0.768860
+6	Always One	Minkowski	Empty	1	0.834671	0.764045	0.789727
+6	Always One	Minkowski	Empty	2	0.828250	0.752809	0.792937
+6	Always One	Minkowski	Empty	3	0.828250	0.752809	0.792937
+6	Always One	Minkowski	Empty	4	0.828250	0.752809	0.792937
+6	Always One	Minkowski	Empty	5	0.828250	0.752809	0.792937
+6	Always One	Minkowski	Empty	6	0.828250	0.752809	0.792937
+6	Always One	Minkowski	Empty	7	0.825040	0.752809	0.792937
+6	Always One	Minkowski	Empty	8	0.826645	0.741573	0.796148
+6	Always One	Minkowski	Empty	9	0.825040	0.741573	0.796148
+6	Always One	Minkowski	Empty	10	0.828250	0.752809	0.800963
+6	Inverse Distance	Minkowski	Empty	1	0.914928	0.707865	0.770465
+6	Inverse Distance	Minkowski	Empty	2	0.914928	0.702247	0.773676
+6	Inverse Distance	Minkowski	Empty	3	0.914928	0.702247	0.770465
+6	Inverse Distance	Minkowski	Empty	4	0.914928	0.702247	0.770465
+6	Inverse Distance	Minkowski	Empty	5	0.914928	0.702247	0.770465
+6	Inverse Distance	Minkowski	Empty	6	0.914928	0.702247	0.770465
+6	Inverse Distance	Minkowski	Empty	7	0.914928	0.702247	0.770465
+6	Inverse Distance	Minkowski	Empty	8	0.914928	0.702247	0.770465
+6	Inverse Distance	Minkowski	Empty	9	0.914928	0.702247	0.768860
+6	Inverse Distance	Minkowski	Empty	10	0.927769	0.719101	0.781701
+6	Negative Distance	Minkowski	Empty	1	0.613162	0.528090	0.545746
+6	Negative Distance	Minkowski	Empty	2	0.638844	0.539326	0.524880
+6	Negative Distance	Minkowski	Empty	3	0.640449	0.539326	0.523274
+6	Negative Distance	Minkowski	Empty	4	0.640449	0.539326	0.523274
+6	Negative Distance	Minkowski	Empty	5	0.640449	0.539326	0.523274
+6	Negative Distance	Minkowski	Empty	6	0.637239	0.533708	0.523274
+6	Negative Distance	Minkowski	Empty	7	0.640449	0.533708	0.524880
+6	Negative Distance	Minkowski	Empty	8	0.627608	0.556180	0.523274
+6	Negative Distance	Minkowski	Empty	9	0.629213	0.556180	0.523274
+6	Negative Distance	Minkowski	Empty	10	0.650080	0.573034	0.539326
+6	Hump	Minkowski	Empty	1	0.845907	0.764045	0.783307
+6	Hump	Minkowski	Empty	2	0.842697	0.752809	0.784912
+6	Hump	Minkowski	Empty	3	0.842697	0.752809	0.784912
+6	Hump	Minkowski	Empty	4	0.842697	0.752809	0.784912
+6	Hump	Minkowski	Empty	5	0.842697	0.752809	0.784912
+6	Hump	Minkowski	Empty	6	0.842697	0.752809	0.784912
+6	Hump	Minkowski	Empty	7	0.842697	0.752809	0.784912
+6	Hump	Minkowski	Empty	8	0.842697	0.752809	0.786517
+6	Hump	Minkowski	Empty	9	0.842697	0.752809	0.786517
+6	Hump	Minkowski	Empty	10	0.842697	0.752809	0.786517
+6	Decay	Minkowski	Empty	1	0.852327	0.758427	0.786517
+6	Decay	Minkowski	Empty	2	0.849117	0.758427	0.786517
+6	Decay	Minkowski	Empty	3	0.849117	0.758427	0.786517
+6	Decay	Minkowski	Empty	4	0.849117	0.758427	0.786517
+6	Decay	Minkowski	Empty	5	0.849117	0.758427	0.783307
+6	Decay	Minkowski	Empty	6	0.849117	0.758427	0.783307
+6	Decay	Minkowski	Empty	7	0.849117	0.758427	0.783307
+6	Decay	Minkowski	Empty	8	0.850722	0.758427	0.783307
+6	Decay	Minkowski	Empty	9	0.850722	0.758427	0.784912
+6	Decay	Minkowski	Empty	10	0.850722	0.758427	0.788122
+6	Normalized Negative Distance	Minkowski	Empty	1	0.860353	0.735955	0.768860
+6	Normalized Negative Distance	Minkowski	Empty	2	0.863563	0.724719	0.770465
+6	Normalized Negative Distance	Minkowski	Empty	3	0.863563	0.724719	0.767255
+6	Normalized Negative Distance	Minkowski	Empty	4	0.863563	0.724719	0.767255
+6	Normalized Negative Distance	Minkowski	Empty	5	0.863563	0.724719	0.767255
+6	Normalized Negative Distance	Minkowski	Empty	6	0.863563	0.724719	0.767255
+6	Normalized Negative Distance	Minkowski	Empty	7	0.863563	0.724719	0.767255
+6	Normalized Negative Distance	Minkowski	Empty	8	0.863563	0.724719	0.765650
+6	Normalized Negative Distance	Minkowski	Empty	9	0.863563	0.724719	0.765650
+6	Normalized Negative Distance	Minkowski	Empty	10	0.876404	0.741573	0.778491
+7	Always One	Minkowski	Empty	1	0.831461	0.769663	0.784912
+7	Always One	Minkowski	Empty	2	0.828250	0.758427	0.794543
+7	Always One	Minkowski	Empty	3	0.828250	0.758427	0.792937
+7	Always One	Minkowski	Empty	4	0.828250	0.758427	0.792937
+7	Always One	Minkowski	Empty	5	0.828250	0.758427	0.792937
+7	Always One	Minkowski	Empty	6	0.828250	0.758427	0.792937
+7	Always One	Minkowski	Empty	7	0.828250	0.758427	0.792937
+7	Always One	Minkowski	Empty	8	0.828250	0.758427	0.789727
+7	Always One	Minkowski	Empty	9	0.828250	0.758427	0.789727
+7	Always One	Minkowski	Empty	10	0.829856	0.752809	0.796148
+7	Inverse Distance	Minkowski	Empty	1	0.914928	0.702247	0.767255
+7	Inverse Distance	Minkowski	Empty	2	0.914928	0.696629	0.775281
+7	Inverse Distance	Minkowski	Empty	3	0.914928	0.696629	0.770465
+7	Inverse Distance	Minkowski	Empty	4	0.914928	0.696629	0.770465
+7	Inverse Distance	Minkowski	Empty	5	0.914928	0.696629	0.770465
+7	Inverse Distance	Minkowski	Empty	6	0.914928	0.696629	0.770465
+7	Inverse Distance	Minkowski	Empty	7	0.914928	0.696629	0.770465
+7	Inverse Distance	Minkowski	Empty	8	0.914928	0.696629	0.768860
+7	Inverse Distance	Minkowski	Empty	9	0.914928	0.696629	0.767255
+7	Inverse Distance	Minkowski	Empty	10	0.927769	0.707865	0.772071
+7	Negative Distance	Minkowski	Empty	1	0.569823	0.488764	0.508828
+7	Negative Distance	Minkowski	Empty	2	0.577849	0.488764	0.495987
+7	Negative Distance	Minkowski	Empty	3	0.573034	0.483146	0.495987
+7	Negative Distance	Minkowski	Empty	4	0.573034	0.483146	0.495987
+7	Negative Distance	Minkowski	Empty	5	0.573034	0.483146	0.495987
+7	Negative Distance	Minkowski	Empty	6	0.573034	0.483146	0.495987
+7	Negative Distance	Minkowski	Empty	7	0.569823	0.477528	0.495987
+7	Negative Distance	Minkowski	Empty	8	0.565008	0.494382	0.495987
+7	Negative Distance	Minkowski	Empty	9	0.566613	0.500000	0.491172
+7	Negative Distance	Minkowski	Empty	10	0.581059	0.494382	0.502408
+7	Hump	Minkowski	Empty	1	0.842697	0.752809	0.788122
+7	Hump	Minkowski	Empty	2	0.844302	0.752809	0.792937
+7	Hump	Minkowski	Empty	3	0.844302	0.752809	0.791332
+7	Hump	Minkowski	Empty	4	0.844302	0.752809	0.788122
+7	Hump	Minkowski	Empty	5	0.844302	0.752809	0.786517
+7	Hump	Minkowski	Empty	6	0.844302	0.752809	0.786517
+7	Hump	Minkowski	Empty	7	0.844302	0.752809	0.786517
+7	Hump	Minkowski	Empty	8	0.844302	0.752809	0.783307
+7	Hump	Minkowski	Empty	9	0.844302	0.752809	0.783307
+7	Hump	Minkowski	Empty	10	0.845907	0.747191	0.788122
+7	Decay	Minkowski	Empty	1	0.842697	0.758427	0.791332
+7	Decay	Minkowski	Empty	2	0.844302	0.752809	0.794543
+7	Decay	Minkowski	Empty	3	0.844302	0.752809	0.791332
+7	Decay	Minkowski	Empty	4	0.844302	0.752809	0.791332
+7	Decay	Minkowski	Empty	5	0.844302	0.752809	0.791332
+7	Decay	Minkowski	Empty	6	0.844302	0.752809	0.791332
+7	Decay	Minkowski	Empty	7	0.844302	0.752809	0.791332
+7	Decay	Minkowski	Empty	8	0.844302	0.752809	0.788122
+7	Decay	Minkowski	Empty	9	0.844302	0.752809	0.788122
+7	Decay	Minkowski	Empty	10	0.844302	0.747191	0.792937
+7	Normalized Negative Distance	Minkowski	Empty	1	0.855538	0.747191	0.767255
+7	Normalized Negative Distance	Minkowski	Empty	2	0.860353	0.735955	0.768860
+7	Normalized Negative Distance	Minkowski	Empty	3	0.860353	0.735955	0.765650
+7	Normalized Negative Distance	Minkowski	Empty	4	0.860353	0.735955	0.765650
+7	Normalized Negative Distance	Minkowski	Empty	5	0.860353	0.735955	0.765650
+7	Normalized Negative Distance	Minkowski	Empty	6	0.860353	0.735955	0.765650
+7	Normalized Negative Distance	Minkowski	Empty	7	0.860353	0.735955	0.765650
+7	Normalized Negative Distance	Minkowski	Empty	8	0.860353	0.735955	0.762440
+7	Normalized Negative Distance	Minkowski	Empty	9	0.860353	0.735955	0.762440
+7	Normalized Negative Distance	Minkowski	Empty	10	0.873194	0.752809	0.767255
+8	Always One	Minkowski	Empty	1	0.831461	0.769663	0.788122
+8	Always One	Minkowski	Empty	2	0.831461	0.747191	0.792937
+8	Always One	Minkowski	Empty	3	0.833066	0.747191	0.792937
+8	Always One	Minkowski	Empty	4	0.833066	0.747191	0.792937
+8	Always One	Minkowski	Empty	5	0.833066	0.747191	0.792937
+8	Always One	Minkowski	Empty	6	0.833066	0.747191	0.792937
+8	Always One	Minkowski	Empty	7	0.829856	0.747191	0.794543
+8	Always One	Minkowski	Empty	8	0.828250	0.752809	0.792937
+8	Always One	Minkowski	Empty	9	0.828250	0.752809	0.792937
+8	Always One	Minkowski	Empty	10	0.831461	0.752809	0.792937
+8	Inverse Distance	Minkowski	Empty	1	0.914928	0.696629	0.773676
+8	Inverse Distance	Minkowski	Empty	2	0.914928	0.691011	0.776886
+8	Inverse Distance	Minkowski	Empty	3	0.914928	0.691011	0.778491
+8	Inverse Distance	Minkowski	Empty	4	0.914928	0.691011	0.778491
+8	Inverse Distance	Minkowski	Empty	5	0.914928	0.691011	0.778491
+8	Inverse Distance	Minkowski	Empty	6	0.914928	0.691011	0.778491
+8	Inverse Distance	Minkowski	Empty	7	0.914928	0.691011	0.780096
+8	Inverse Distance	Minkowski	Empty	8	0.914928	0.691011	0.776886
+8	Inverse Distance	Minkowski	Empty	9	0.914928	0.691011	0.776886
+8	Inverse Distance	Minkowski	Empty	10	0.914928	0.696629	0.776886
+8	Negative Distance	Minkowski	Empty	1	0.531300	0.455056	0.473515
+8	Negative Distance	Minkowski	Empty	2	0.532905	0.466292	0.462279
+8	Negative Distance	Minkowski	Empty	3	0.531300	0.466292	0.468700
+8	Negative Distance	Minkowski	Empty	4	0.531300	0.466292	0.468700
+8	Negative Distance	Minkowski	Empty	5	0.531300	0.466292	0.468700
+8	Negative Distance	Minkowski	Empty	6	0.531300	0.466292	0.468700
+8	Negative Distance	Minkowski	Empty	7	0.534510	0.466292	0.468700
+8	Negative Distance	Minkowski	Empty	8	0.528090	0.471910	0.468700
+8	Negative Distance	Minkowski	Empty	9	0.532905	0.483146	0.467095
+8	Negative Distance	Minkowski	Empty	10	0.532905	0.460674	0.470305
+8	Hump	Minkowski	Empty	1	0.841091	0.758427	0.783307
+8	Hump	Minkowski	Empty	2	0.844302	0.758427	0.791332
+8	Hump	Minkowski	Empty	3	0.844302	0.758427	0.792937
+8	Hump	Minkowski	Empty	4	0.844302	0.758427	0.792937
+8	Hump	Minkowski	Empty	5	0.844302	0.758427	0.792937
+8	Hump	Minkowski	Empty	6	0.844302	0.758427	0.792937
+8	Hump	Minkowski	Empty	7	0.844302	0.758427	0.794543
+8	Hump	Minkowski	Empty	8	0.844302	0.758427	0.792937
+8	Hump	Minkowski	Empty	9	0.844302	0.758427	0.792937
+8	Hump	Minkowski	Empty	10	0.844302	0.764045	0.788122
+8	Decay	Minkowski	Empty	1	0.850722	0.764045	0.789727
+8	Decay	Minkowski	Empty	2	0.852327	0.752809	0.794543
+8	Decay	Minkowski	Empty	3	0.852327	0.752809	0.794543
+8	Decay	Minkowski	Empty	4	0.852327	0.752809	0.794543
+8	Decay	Minkowski	Empty	5	0.852327	0.752809	0.791332
+8	Decay	Minkowski	Empty	6	0.852327	0.752809	0.791332
+8	Decay	Minkowski	Empty	7	0.852327	0.752809	0.792937
+8	Decay	Minkowski	Empty	8	0.852327	0.752809	0.791332
+8	Decay	Minkowski	Empty	9	0.852327	0.752809	0.791332
+8	Decay	Minkowski	Empty	10	0.852327	0.758427	0.789727
+8	Normalized Negative Distance	Minkowski	Empty	1	0.853933	0.758427	0.770465
+8	Normalized Negative Distance	Minkowski	Empty	2	0.855538	0.747191	0.773676
+8	Normalized Negative Distance	Minkowski	Empty	3	0.857143	0.747191	0.775281
+8	Normalized Negative Distance	Minkowski	Empty	4	0.857143	0.747191	0.775281
+8	Normalized Negative Distance	Minkowski	Empty	5	0.857143	0.747191	0.775281
+8	Normalized Negative Distance	Minkowski	Empty	6	0.857143	0.747191	0.775281
+8	Normalized Negative Distance	Minkowski	Empty	7	0.857143	0.747191	0.775281
+8	Normalized Negative Distance	Minkowski	Empty	8	0.857143	0.747191	0.772071
+8	Normalized Negative Distance	Minkowski	Empty	9	0.857143	0.747191	0.772071
+8	Normalized Negative Distance	Minkowski	Empty	10	0.857143	0.747191	0.773676
+9	Always One	Minkowski	Empty	1	0.828250	0.764045	0.796148
+9	Always One	Minkowski	Empty	2	0.833066	0.752809	0.804173
+9	Always One	Minkowski	Empty	3	0.833066	0.752809	0.802568
+9	Always One	Minkowski	Empty	4	0.833066	0.752809	0.802568
+9	Always One	Minkowski	Empty	5	0.833066	0.752809	0.802568
+9	Always One	Minkowski	Empty	6	0.833066	0.752809	0.802568
+9	Always One	Minkowski	Empty	7	0.829856	0.752809	0.800963
+9	Always One	Minkowski	Empty	8	0.826645	0.758427	0.802568
+9	Always One	Minkowski	Empty	9	0.826645	0.758427	0.802568
+9	Always One	Minkowski	Empty	10	0.831461	0.747191	0.804173
+9	Inverse Distance	Minkowski	Empty	1	0.914928	0.691011	0.770465
+9	Inverse Distance	Minkowski	Empty	2	0.914928	0.685393	0.775281
+9	Inverse Distance	Minkowski	Empty	3	0.914928	0.685393	0.773676
+9	Inverse Distance	Minkowski	Empty	4	0.914928	0.685393	0.773676
+9	Inverse Distance	Minkowski	Empty	5	0.914928	0.685393	0.773676
+9	Inverse Distance	Minkowski	Empty	6	0.914928	0.685393	0.773676
+9	Inverse Distance	Minkowski	Empty	7	0.914928	0.685393	0.773676
+9	Inverse Distance	Minkowski	Empty	8	0.914928	0.685393	0.773676
+9	Inverse Distance	Minkowski	Empty	9	0.914928	0.685393	0.773676
+9	Inverse Distance	Minkowski	Empty	10	0.914928	0.685393	0.773676
+9	Negative Distance	Minkowski	Empty	1	0.502408	0.460674	0.451043
+9	Negative Distance	Minkowski	Empty	2	0.507223	0.460674	0.433387
+9	Negative Distance	Minkowski	Empty	3	0.504013	0.460674	0.438202
+9	Negative Distance	Minkowski	Empty	4	0.504013	0.460674	0.438202
+9	Negative Distance	Minkowski	Empty	5	0.504013	0.460674	0.438202
+9	Negative Distance	Minkowski	Empty	6	0.504013	0.460674	0.438202
+9	Negative Distance	Minkowski	Empty	7	0.504013	0.460674	0.439807
+9	Negative Distance	Minkowski	Empty	8	0.502408	0.466292	0.438202
+9	Negative Distance	Minkowski	Empty	9	0.502408	0.471910	0.436597
+9	Negative Distance	Minkowski	Empty	10	0.497592	0.460674	0.441413
+9	Hump	Minkowski	Empty	1	0.841091	0.758427	0.794543
+9	Hump	Minkowski	Empty	2	0.841091	0.747191	0.796148
+9	Hump	Minkowski	Empty	3	0.841091	0.747191	0.797753
+9	Hump	Minkowski	Empty	4	0.841091	0.747191	0.794543
+9	Hump	Minkowski	Empty	5	0.841091	0.747191	0.794543
+9	Hump	Minkowski	Empty	6	0.841091	0.747191	0.794543
+9	Hump	Minkowski	Empty	7	0.841091	0.747191	0.794543
+9	Hump	Minkowski	Empty	8	0.839486	0.752809	0.796148
+9	Hump	Minkowski	Empty	9	0.839486	0.752809	0.796148
+9	Hump	Minkowski	Empty	10	0.841091	0.741573	0.796148
+9	Decay	Minkowski	Empty	1	0.839486	0.764045	0.799358
+9	Decay	Minkowski	Empty	2	0.841091	0.752809	0.800963
+9	Decay	Minkowski	Empty	3	0.842697	0.747191	0.799358
+9	Decay	Minkowski	Empty	4	0.842697	0.747191	0.799358
+9	Decay	Minkowski	Empty	5	0.842697	0.747191	0.799358
+9	Decay	Minkowski	Empty	6	0.842697	0.747191	0.799358
+9	Decay	Minkowski	Empty	7	0.842697	0.747191	0.799358
+9	Decay	Minkowski	Empty	8	0.841091	0.752809	0.800963
+9	Decay	Minkowski	Empty	9	0.841091	0.752809	0.800963
+9	Decay	Minkowski	Empty	10	0.842697	0.741573	0.799358
+9	Normalized Negative Distance	Minkowski	Empty	1	0.853933	0.752809	0.770465
+9	Normalized Negative Distance	Minkowski	Empty	2	0.855538	0.747191	0.772071
+9	Normalized Negative Distance	Minkowski	Empty	3	0.857143	0.747191	0.772071
+9	Normalized Negative Distance	Minkowski	Empty	4	0.857143	0.747191	0.772071
+9	Normalized Negative Distance	Minkowski	Empty	5	0.857143	0.747191	0.772071
+9	Normalized Negative Distance	Minkowski	Empty	6	0.857143	0.747191	0.772071
+9	Normalized Negative Distance	Minkowski	Empty	7	0.857143	0.747191	0.772071
+9	Normalized Negative Distance	Minkowski	Empty	8	0.857143	0.747191	0.772071
+9	Normalized Negative Distance	Minkowski	Empty	9	0.857143	0.747191	0.772071
+9	Normalized Negative Distance	Minkowski	Empty	10	0.857143	0.747191	0.772071
+10	Always One	Minkowski	Empty	1	0.831461	0.735955	0.818620
+10	Always One	Minkowski	Empty	2	0.837881	0.730337	0.820225
+10	Always One	Minkowski	Empty	3	0.837881	0.730337	0.821830
+10	Always One	Minkowski	Empty	4	0.837881	0.730337	0.821830
+10	Always One	Minkowski	Empty	5	0.837881	0.730337	0.821830
+10	Always One	Minkowski	Empty	6	0.837881	0.730337	0.821830
+10	Always One	Minkowski	Empty	7	0.837881	0.730337	0.821830
+10	Always One	Minkowski	Empty	8	0.839486	0.730337	0.818620
+10	Always One	Minkowski	Empty	9	0.839486	0.730337	0.820225
+10	Always One	Minkowski	Empty	10	0.842697	0.735955	0.820225
+10	Inverse Distance	Minkowski	Empty	1	0.914928	0.691011	0.770465
+10	Inverse Distance	Minkowski	Empty	2	0.914928	0.685393	0.773676
+10	Inverse Distance	Minkowski	Empty	3	0.914928	0.685393	0.775281
+10	Inverse Distance	Minkowski	Empty	4	0.914928	0.685393	0.775281
+10	Inverse Distance	Minkowski	Empty	5	0.914928	0.685393	0.775281
+10	Inverse Distance	Minkowski	Empty	6	0.914928	0.685393	0.775281
+10	Inverse Distance	Minkowski	Empty	7	0.914928	0.685393	0.775281
+10	Inverse Distance	Minkowski	Empty	8	0.914928	0.685393	0.773676
+10	Inverse Distance	Minkowski	Empty	9	0.914928	0.685393	0.775281
+10	Inverse Distance	Minkowski	Empty	10	0.914928	0.685393	0.772071
+10	Negative Distance	Minkowski	Empty	1	0.479936	0.466292	0.436597
+10	Negative Distance	Minkowski	Empty	2	0.475120	0.449438	0.434992
+10	Negative Distance	Minkowski	Empty	3	0.470305	0.443820	0.433387
+10	Negative Distance	Minkowski	Empty	4	0.470305	0.443820	0.431782
+10	Negative Distance	Minkowski	Empty	5	0.470305	0.443820	0.431782
+10	Negative Distance	Minkowski	Empty	6	0.470305	0.443820	0.433387
+10	Negative Distance	Minkowski	Empty	7	0.470305	0.443820	0.433387
+10	Negative Distance	Minkowski	Empty	8	0.465490	0.460674	0.434992
+10	Negative Distance	Minkowski	Empty	9	0.465490	0.466292	0.433387
+10	Negative Distance	Minkowski	Empty	10	0.460674	0.449438	0.438202
+10	Hump	Minkowski	Empty	1	0.839486	0.741573	0.791332
+10	Hump	Minkowski	Empty	2	0.839486	0.741573	0.797753
+10	Hump	Minkowski	Empty	3	0.839486	0.741573	0.796148
+10	Hump	Minkowski	Empty	4	0.839486	0.741573	0.796148
+10	Hump	Minkowski	Empty	5	0.839486	0.741573	0.796148
+10	Hump	Minkowski	Empty	6	0.839486	0.741573	0.796148
+10	Hump	Minkowski	Empty	7	0.839486	0.741573	0.796148
+10	Hump	Minkowski	Empty	8	0.839486	0.747191	0.796148
+10	Hump	Minkowski	Empty	9	0.839486	0.747191	0.796148
+10	Hump	Minkowski	Empty	10	0.837881	0.747191	0.794543
+10	Decay	Minkowski	Empty	1	0.847512	0.741573	0.796148
+10	Decay	Minkowski	Empty	2	0.849117	0.735955	0.794543
+10	Decay	Minkowski	Empty	3	0.849117	0.735955	0.794543
+10	Decay	Minkowski	Empty	4	0.849117	0.735955	0.794543
+10	Decay	Minkowski	Empty	5	0.849117	0.735955	0.794543
+10	Decay	Minkowski	Empty	6	0.849117	0.735955	0.794543
+10	Decay	Minkowski	Empty	7	0.849117	0.735955	0.794543
+10	Decay	Minkowski	Empty	8	0.849117	0.741573	0.792937
+10	Decay	Minkowski	Empty	9	0.849117	0.741573	0.794543
+10	Decay	Minkowski	Empty	10	0.847512	0.741573	0.791332
+10	Normalized Negative Distance	Minkowski	Empty	1	0.849117	0.752809	0.786517
+10	Normalized Negative Distance	Minkowski	Empty	2	0.850722	0.741573	0.788122
+10	Normalized Negative Distance	Minkowski	Empty	3	0.850722	0.741573	0.789727
+10	Normalized Negative Distance	Minkowski	Empty	4	0.850722	0.741573	0.788122
+10	Normalized Negative Distance	Minkowski	Empty	5	0.850722	0.741573	0.789727
+10	Normalized Negative Distance	Minkowski	Empty	6	0.853933	0.741573	0.789727
+10	Normalized Negative Distance	Minkowski	Empty	7	0.853933	0.741573	0.789727
+10	Normalized Negative Distance	Minkowski	Empty	8	0.853933	0.741573	0.788122
+10	Normalized Negative Distance	Minkowski	Empty	9	0.853933	0.741573	0.789727
+10	Normalized Negative Distance	Minkowski	Empty	10	0.853933	0.741573	0.789727
+11	Always One	Minkowski	Empty	1	0.829856	0.747191	0.805778
+11	Always One	Minkowski	Empty	2	0.829856	0.735955	0.807384
+11	Always One	Minkowski	Empty	3	0.829856	0.735955	0.807384
+11	Always One	Minkowski	Empty	4	0.829856	0.735955	0.807384
+11	Always One	Minkowski	Empty	5	0.829856	0.735955	0.807384
+11	Always One	Minkowski	Empty	6	0.829856	0.735955	0.807384
+11	Always One	Minkowski	Empty	7	0.829856	0.735955	0.805778
+11	Always One	Minkowski	Empty	8	0.829856	0.735955	0.807384
+11	Always One	Minkowski	Empty	9	0.829856	0.735955	0.807384
+11	Always One	Minkowski	Empty	10	0.833066	0.741573	0.802568
+11	Inverse Distance	Minkowski	Empty	1	0.914928	0.691011	0.767255
+11	Inverse Distance	Minkowski	Empty	2	0.914928	0.685393	0.768860
+11	Inverse Distance	Minkowski	Empty	3	0.914928	0.685393	0.768860
+11	Inverse Distance	Minkowski	Empty	4	0.914928	0.685393	0.768860
+11	Inverse Distance	Minkowski	Empty	5	0.914928	0.685393	0.768860
+11	Inverse Distance	Minkowski	Empty	6	0.914928	0.685393	0.768860
+11	Inverse Distance	Minkowski	Empty	7	0.914928	0.685393	0.768860
+11	Inverse Distance	Minkowski	Empty	8	0.914928	0.685393	0.768860
+11	Inverse Distance	Minkowski	Empty	9	0.914928	0.685393	0.768860
+11	Inverse Distance	Minkowski	Empty	10	0.914928	0.685393	0.767255
+11	Negative Distance	Minkowski	Empty	1	0.470305	0.471910	0.399679
+11	Negative Distance	Minkowski	Empty	2	0.475120	0.471910	0.386838
+11	Negative Distance	Minkowski	Empty	3	0.479936	0.471910	0.386838
+11	Negative Distance	Minkowski	Empty	4	0.478331	0.471910	0.386838
+11	Negative Distance	Minkowski	Empty	5	0.478331	0.471910	0.386838
+11	Negative Distance	Minkowski	Empty	6	0.479936	0.471910	0.386838
+11	Negative Distance	Minkowski	Empty	7	0.479936	0.471910	0.388443
+11	Negative Distance	Minkowski	Empty	8	0.470305	0.488764	0.393258
+11	Negative Distance	Minkowski	Empty	9	0.473515	0.494382	0.391653
+11	Negative Distance	Minkowski	Empty	10	0.463884	0.460674	0.393258
+11	Hump	Minkowski	Empty	1	0.834671	0.741573	0.805778
+11	Hump	Minkowski	Empty	2	0.834671	0.735955	0.805778
+11	Hump	Minkowski	Empty	3	0.834671	0.735955	0.805778
+11	Hump	Minkowski	Empty	4	0.834671	0.735955	0.805778
+11	Hump	Minkowski	Empty	5	0.834671	0.735955	0.805778
+11	Hump	Minkowski	Empty	6	0.834671	0.735955	0.805778
+11	Hump	Minkowski	Empty	7	0.834671	0.735955	0.804173
+11	Hump	Minkowski	Empty	8	0.834671	0.730337	0.804173
+11	Hump	Minkowski	Empty	9	0.834671	0.730337	0.804173
+11	Hump	Minkowski	Empty	10	0.836276	0.730337	0.796148
+11	Decay	Minkowski	Empty	1	0.836276	0.741573	0.804173
+11	Decay	Minkowski	Empty	2	0.834671	0.741573	0.807384
+11	Decay	Minkowski	Empty	3	0.834671	0.735955	0.805778
+11	Decay	Minkowski	Empty	4	0.834671	0.735955	0.805778
+11	Decay	Minkowski	Empty	5	0.834671	0.735955	0.805778
+11	Decay	Minkowski	Empty	6	0.834671	0.735955	0.805778
+11	Decay	Minkowski	Empty	7	0.834671	0.735955	0.804173
+11	Decay	Minkowski	Empty	8	0.833066	0.730337	0.804173
+11	Decay	Minkowski	Empty	9	0.833066	0.730337	0.804173
+11	Decay	Minkowski	Empty	10	0.837881	0.730337	0.797753
+11	Normalized Negative Distance	Minkowski	Empty	1	0.858748	0.769663	0.781701
+11	Normalized Negative Distance	Minkowski	Empty	2	0.863563	0.758427	0.780096
+11	Normalized Negative Distance	Minkowski	Empty	3	0.863563	0.758427	0.784912
+11	Normalized Negative Distance	Minkowski	Empty	4	0.863563	0.758427	0.783307
+11	Normalized Negative Distance	Minkowski	Empty	5	0.863563	0.758427	0.784912
+11	Normalized Negative Distance	Minkowski	Empty	6	0.865169	0.758427	0.784912
+11	Normalized Negative Distance	Minkowski	Empty	7	0.865169	0.758427	0.784912
+11	Normalized Negative Distance	Minkowski	Empty	8	0.865169	0.758427	0.783307
+11	Normalized Negative Distance	Minkowski	Empty	9	0.865169	0.758427	0.784912
+11	Normalized Negative Distance	Minkowski	Empty	10	0.865169	0.752809	0.784912
+12	Always One	Minkowski	Empty	1	0.821830	0.752809	0.808989
+12	Always One	Minkowski	Empty	2	0.828250	0.747191	0.810594
+12	Always One	Minkowski	Empty	3	0.826645	0.747191	0.810594
+12	Always One	Minkowski	Empty	4	0.826645	0.747191	0.810594
+12	Always One	Minkowski	Empty	5	0.826645	0.747191	0.810594
+12	Always One	Minkowski	Empty	6	0.826645	0.747191	0.810594
+12	Always One	Minkowski	Empty	7	0.829856	0.747191	0.810594
+12	Always One	Minkowski	Empty	8	0.829856	0.747191	0.810594
+12	Always One	Minkowski	Empty	9	0.829856	0.747191	0.808989
+12	Always One	Minkowski	Empty	10	0.831461	0.752809	0.812199
+12	Inverse Distance	Minkowski	Empty	1	0.914928	0.691011	0.767255
+12	Inverse Distance	Minkowski	Empty	2	0.914928	0.685393	0.770465
+12	Inverse Distance	Minkowski	Empty	3	0.914928	0.685393	0.770465
+12	Inverse Distance	Minkowski	Empty	4	0.914928	0.685393	0.770465
+12	Inverse Distance	Minkowski	Empty	5	0.914928	0.685393	0.770465
+12	Inverse Distance	Minkowski	Empty	6	0.914928	0.685393	0.770465
+12	Inverse Distance	Minkowski	Empty	7	0.914928	0.685393	0.770465
+12	Inverse Distance	Minkowski	Empty	8	0.914928	0.685393	0.770465
+12	Inverse Distance	Minkowski	Empty	9	0.914928	0.685393	0.770465
+12	Inverse Distance	Minkowski	Empty	10	0.914928	0.685393	0.770465
+12	Negative Distance	Minkowski	Empty	1	0.433387	0.432584	0.401284
+12	Negative Distance	Minkowski	Empty	2	0.430177	0.449438	0.391653
+12	Negative Distance	Minkowski	Empty	3	0.433387	0.449438	0.391653
+12	Negative Distance	Minkowski	Empty	4	0.433387	0.449438	0.391653
+12	Negative Distance	Minkowski	Empty	5	0.433387	0.449438	0.391653
+12	Negative Distance	Minkowski	Empty	6	0.433387	0.449438	0.391653
+12	Negative Distance	Minkowski	Empty	7	0.428571	0.449438	0.391653
+12	Negative Distance	Minkowski	Empty	8	0.425361	0.443820	0.396469
+12	Negative Distance	Minkowski	Empty	9	0.425361	0.443820	0.396469
+12	Negative Distance	Minkowski	Empty	10	0.425361	0.415730	0.393258
+12	Hump	Minkowski	Empty	1	0.836276	0.735955	0.797753
+12	Hump	Minkowski	Empty	2	0.836276	0.735955	0.796148
+12	Hump	Minkowski	Empty	3	0.836276	0.735955	0.797753
+12	Hump	Minkowski	Empty	4	0.836276	0.735955	0.796148
+12	Hump	Minkowski	Empty	5	0.836276	0.735955	0.796148
+12	Hump	Minkowski	Empty	6	0.836276	0.735955	0.796148
+12	Hump	Minkowski	Empty	7	0.836276	0.735955	0.796148
+12	Hump	Minkowski	Empty	8	0.834671	0.735955	0.794543
+12	Hump	Minkowski	Empty	9	0.834671	0.735955	0.794543
+12	Hump	Minkowski	Empty	10	0.836276	0.735955	0.796148
+12	Decay	Minkowski	Empty	1	0.839486	0.741573	0.800963
+12	Decay	Minkowski	Empty	2	0.844302	0.735955	0.796148
+12	Decay	Minkowski	Empty	3	0.842697	0.735955	0.796148
+12	Decay	Minkowski	Empty	4	0.842697	0.735955	0.796148
+12	Decay	Minkowski	Empty	5	0.842697	0.735955	0.796148
+12	Decay	Minkowski	Empty	6	0.839486	0.735955	0.794543
+12	Decay	Minkowski	Empty	7	0.839486	0.735955	0.794543
+12	Decay	Minkowski	Empty	8	0.836276	0.735955	0.792937
+12	Decay	Minkowski	Empty	9	0.836276	0.735955	0.792937
+12	Decay	Minkowski	Empty	10	0.841091	0.741573	0.794543
+12	Normalized Negative Distance	Minkowski	Empty	1	0.858748	0.764045	0.781701
+12	Normalized Negative Distance	Minkowski	Empty	2	0.861958	0.752809	0.780096
+12	Normalized Negative Distance	Minkowski	Empty	3	0.861958	0.752809	0.780096
+12	Normalized Negative Distance	Minkowski	Empty	4	0.861958	0.752809	0.780096
+12	Normalized Negative Distance	Minkowski	Empty	5	0.861958	0.752809	0.778491
+12	Normalized Negative Distance	Minkowski	Empty	6	0.863563	0.752809	0.778491
+12	Normalized Negative Distance	Minkowski	Empty	7	0.863563	0.752809	0.778491
+12	Normalized Negative Distance	Minkowski	Empty	8	0.863563	0.752809	0.778491
+12	Normalized Negative Distance	Minkowski	Empty	9	0.863563	0.752809	0.778491
+12	Normalized Negative Distance	Minkowski	Empty	10	0.863563	0.747191	0.778491
+13	Always One	Minkowski	Empty	1	0.823435	0.764045	0.810594
+13	Always One	Minkowski	Empty	2	0.828250	0.758427	0.812199
+13	Always One	Minkowski	Empty	3	0.828250	0.758427	0.813804
+13	Always One	Minkowski	Empty	4	0.828250	0.758427	0.813804
+13	Always One	Minkowski	Empty	5	0.828250	0.758427	0.813804
+13	Always One	Minkowski	Empty	6	0.828250	0.758427	0.813804
+13	Always One	Minkowski	Empty	7	0.831461	0.758427	0.813804
+13	Always One	Minkowski	Empty	8	0.833066	0.758427	0.817014
+13	Always One	Minkowski	Empty	9	0.833066	0.758427	0.817014
+13	Always One	Minkowski	Empty	10	0.831461	0.758427	0.813804
+13	Inverse Distance	Minkowski	Empty	1	0.914928	0.696629	0.773676
+13	Inverse Distance	Minkowski	Empty	2	0.914928	0.691011	0.773676
+13	Inverse Distance	Minkowski	Empty	3	0.914928	0.691011	0.773676
+13	Inverse Distance	Minkowski	Empty	4	0.914928	0.691011	0.773676
+13	Inverse Distance	Minkowski	Empty	5	0.914928	0.691011	0.773676
+13	Inverse Distance	Minkowski	Empty	6	0.914928	0.691011	0.773676
+13	Inverse Distance	Minkowski	Empty	7	0.914928	0.691011	0.773676
+13	Inverse Distance	Minkowski	Empty	8	0.914928	0.691011	0.773676
+13	Inverse Distance	Minkowski	Empty	9	0.914928	0.691011	0.773676
+13	Inverse Distance	Minkowski	Empty	10	0.914928	0.691011	0.772071
+13	Negative Distance	Minkowski	Empty	1	0.425361	0.398876	0.329053
+13	Negative Distance	Minkowski	Empty	2	0.422151	0.438202	0.321027
+13	Negative Distance	Minkowski	Empty	3	0.423756	0.438202	0.319422
+13	Negative Distance	Minkowski	Empty	4	0.423756	0.438202	0.319422
+13	Negative Distance	Minkowski	Empty	5	0.423756	0.438202	0.319422
+13	Negative Distance	Minkowski	Empty	6	0.423756	0.438202	0.319422
+13	Negative Distance	Minkowski	Empty	7	0.420546	0.438202	0.319422
+13	Negative Distance	Minkowski	Empty	8	0.409310	0.426966	0.319422
+13	Negative Distance	Minkowski	Empty	9	0.407705	0.432584	0.316212
+13	Negative Distance	Minkowski	Empty	10	0.414125	0.410112	0.333868
+13	Hump	Minkowski	Empty	1	0.833066	0.741573	0.800963
+13	Hump	Minkowski	Empty	2	0.837881	0.735955	0.804173
+13	Hump	Minkowski	Empty	3	0.837881	0.735955	0.804173
+13	Hump	Minkowski	Empty	4	0.837881	0.735955	0.804173
+13	Hump	Minkowski	Empty	5	0.836276	0.735955	0.804173
+13	Hump	Minkowski	Empty	6	0.834671	0.735955	0.804173
+13	Hump	Minkowski	Empty	7	0.834671	0.735955	0.804173
+13	Hump	Minkowski	Empty	8	0.831461	0.735955	0.804173
+13	Hump	Minkowski	Empty	9	0.831461	0.735955	0.804173
+13	Hump	Minkowski	Empty	10	0.829856	0.735955	0.802568
+13	Decay	Minkowski	Empty	1	0.836276	0.752809	0.802568
+13	Decay	Minkowski	Empty	2	0.841091	0.741573	0.802568
+13	Decay	Minkowski	Empty	3	0.836276	0.741573	0.802568
+13	Decay	Minkowski	Empty	4	0.836276	0.741573	0.802568
+13	Decay	Minkowski	Empty	5	0.836276	0.741573	0.804173
+13	Decay	Minkowski	Empty	6	0.836276	0.741573	0.804173
+13	Decay	Minkowski	Empty	7	0.836276	0.741573	0.804173
+13	Decay	Minkowski	Empty	8	0.834671	0.741573	0.805778
+13	Decay	Minkowski	Empty	9	0.834671	0.741573	0.808989
+13	Decay	Minkowski	Empty	10	0.831461	0.741573	0.805778
+13	Normalized Negative Distance	Minkowski	Empty	1	0.853933	0.764045	0.784912
+13	Normalized Negative Distance	Minkowski	Empty	2	0.861958	0.752809	0.781701
+13	Normalized Negative Distance	Minkowski	Empty	3	0.860353	0.747191	0.781701
+13	Normalized Negative Distance	Minkowski	Empty	4	0.860353	0.747191	0.781701
+13	Normalized Negative Distance	Minkowski	Empty	5	0.860353	0.747191	0.781701
+13	Normalized Negative Distance	Minkowski	Empty	6	0.861958	0.747191	0.781701
+13	Normalized Negative Distance	Minkowski	Empty	7	0.861958	0.747191	0.781701
+13	Normalized Negative Distance	Minkowski	Empty	8	0.861958	0.747191	0.781701
+13	Normalized Negative Distance	Minkowski	Empty	9	0.861958	0.747191	0.781701
+13	Normalized Negative Distance	Minkowski	Empty	10	0.861958	0.741573	0.781701
+14	Always One	Minkowski	Empty	1	0.823435	0.758427	0.817014
+14	Always One	Minkowski	Empty	2	0.821830	0.747191	0.813804
+14	Always One	Minkowski	Empty	3	0.821830	0.747191	0.813804
+14	Always One	Minkowski	Empty	4	0.821830	0.747191	0.813804
+14	Always One	Minkowski	Empty	5	0.821830	0.747191	0.813804
+14	Always One	Minkowski	Empty	6	0.821830	0.747191	0.813804
+14	Always One	Minkowski	Empty	7	0.825040	0.747191	0.813804
+14	Always One	Minkowski	Empty	8	0.828250	0.747191	0.815409
+14	Always One	Minkowski	Empty	9	0.828250	0.747191	0.815409
+14	Always One	Minkowski	Empty	10	0.829856	0.747191	0.818620
+14	Inverse Distance	Minkowski	Empty	1	0.914928	0.691011	0.773676
+14	Inverse Distance	Minkowski	Empty	2	0.914928	0.685393	0.775281
+14	Inverse Distance	Minkowski	Empty	3	0.914928	0.685393	0.775281
+14	Inverse Distance	Minkowski	Empty	4	0.914928	0.685393	0.776886
+14	Inverse Distance	Minkowski	Empty	5	0.914928	0.685393	0.776886
+14	Inverse Distance	Minkowski	Empty	6	0.914928	0.685393	0.776886
+14	Inverse Distance	Minkowski	Empty	7	0.914928	0.685393	0.776886
+14	Inverse Distance	Minkowski	Empty	8	0.914928	0.685393	0.776886
+14	Inverse Distance	Minkowski	Empty	9	0.914928	0.685393	0.776886
+14	Inverse Distance	Minkowski	Empty	10	0.914928	0.685393	0.775281
+14	Negative Distance	Minkowski	Empty	1	0.345104	0.359551	0.333868
+14	Negative Distance	Minkowski	Empty	2	0.357945	0.376404	0.335474
+14	Negative Distance	Minkowski	Empty	3	0.357945	0.376404	0.335474
+14	Negative Distance	Minkowski	Empty	4	0.357945	0.376404	0.335474
+14	Negative Distance	Minkowski	Empty	5	0.357945	0.376404	0.335474
+14	Negative Distance	Minkowski	Empty	6	0.357945	0.376404	0.335474
+14	Negative Distance	Minkowski	Empty	7	0.354735	0.376404	0.337079
+14	Negative Distance	Minkowski	Empty	8	0.348315	0.370787	0.335474
+14	Negative Distance	Minkowski	Empty	9	0.346709	0.376404	0.333868
+14	Negative Distance	Minkowski	Empty	10	0.356340	0.359551	0.340289
+14	Hump	Minkowski	Empty	1	0.833066	0.747191	0.807384
+14	Hump	Minkowski	Empty	2	0.836276	0.747191	0.805778
+14	Hump	Minkowski	Empty	3	0.836276	0.747191	0.807384
+14	Hump	Minkowski	Empty	4	0.833066	0.747191	0.805778
+14	Hump	Minkowski	Empty	5	0.833066	0.747191	0.805778
+14	Hump	Minkowski	Empty	6	0.833066	0.747191	0.805778
+14	Hump	Minkowski	Empty	7	0.833066	0.747191	0.808989
+14	Hump	Minkowski	Empty	8	0.833066	0.741573	0.808989
+14	Hump	Minkowski	Empty	9	0.833066	0.741573	0.808989
+14	Hump	Minkowski	Empty	10	0.831461	0.747191	0.807384
+14	Decay	Minkowski	Empty	1	0.834671	0.752809	0.808989
+14	Decay	Minkowski	Empty	2	0.836276	0.747191	0.805778
+14	Decay	Minkowski	Empty	3	0.836276	0.747191	0.805778
+14	Decay	Minkowski	Empty	4	0.836276	0.747191	0.807384
+14	Decay	Minkowski	Empty	5	0.836276	0.747191	0.808989
+14	Decay	Minkowski	Empty	6	0.836276	0.747191	0.808989
+14	Decay	Minkowski	Empty	7	0.836276	0.747191	0.808989
+14	Decay	Minkowski	Empty	8	0.833066	0.741573	0.810594
+14	Decay	Minkowski	Empty	9	0.833066	0.741573	0.810594
+14	Decay	Minkowski	Empty	10	0.831461	0.747191	0.808989
+14	Normalized Negative Distance	Minkowski	Empty	1	0.847512	0.758427	0.788122
+14	Normalized Negative Distance	Minkowski	Empty	2	0.855538	0.752809	0.786517
+14	Normalized Negative Distance	Minkowski	Empty	3	0.855538	0.747191	0.784912
+14	Normalized Negative Distance	Minkowski	Empty	4	0.855538	0.747191	0.784912
+14	Normalized Negative Distance	Minkowski	Empty	5	0.855538	0.747191	0.784912
+14	Normalized Negative Distance	Minkowski	Empty	6	0.857143	0.747191	0.784912
+14	Normalized Negative Distance	Minkowski	Empty	7	0.857143	0.747191	0.784912
+14	Normalized Negative Distance	Minkowski	Empty	8	0.857143	0.747191	0.783307
+14	Normalized Negative Distance	Minkowski	Empty	9	0.857143	0.747191	0.783307
+14	Normalized Negative Distance	Minkowski	Empty	10	0.857143	0.741573	0.783307
+15	Always One	Minkowski	Empty	1	0.829856	0.769663	0.821830
+15	Always One	Minkowski	Empty	2	0.828250	0.764045	0.821830
+15	Always One	Minkowski	Empty	3	0.828250	0.764045	0.821830
+15	Always One	Minkowski	Empty	4	0.828250	0.764045	0.821830
+15	Always One	Minkowski	Empty	5	0.828250	0.764045	0.821830
+15	Always One	Minkowski	Empty	6	0.828250	0.764045	0.821830
+15	Always One	Minkowski	Empty	7	0.831461	0.764045	0.821830
+15	Always One	Minkowski	Empty	8	0.833066	0.764045	0.821830
+15	Always One	Minkowski	Empty	9	0.833066	0.764045	0.821830
+15	Always One	Minkowski	Empty	10	0.829856	0.758427	0.823435
+15	Inverse Distance	Minkowski	Empty	1	0.914928	0.696629	0.776886
+15	Inverse Distance	Minkowski	Empty	2	0.914928	0.691011	0.776886
+15	Inverse Distance	Minkowski	Empty	3	0.914928	0.691011	0.776886
+15	Inverse Distance	Minkowski	Empty	4	0.914928	0.691011	0.776886
+15	Inverse Distance	Minkowski	Empty	5	0.914928	0.691011	0.776886
+15	Inverse Distance	Minkowski	Empty	6	0.914928	0.691011	0.776886
+15	Inverse Distance	Minkowski	Empty	7	0.914928	0.691011	0.778491
+15	Inverse Distance	Minkowski	Empty	8	0.914928	0.691011	0.778491
+15	Inverse Distance	Minkowski	Empty	9	0.914928	0.691011	0.778491
+15	Inverse Distance	Minkowski	Empty	10	0.914928	0.691011	0.780096
+15	Negative Distance	Minkowski	Empty	1	0.353130	0.342697	0.311396
+15	Negative Distance	Minkowski	Empty	2	0.354735	0.359551	0.309791
+15	Negative Distance	Minkowski	Empty	3	0.354735	0.359551	0.309791
+15	Negative Distance	Minkowski	Empty	4	0.356340	0.359551	0.309791
+15	Negative Distance	Minkowski	Empty	5	0.354735	0.359551	0.309791
+15	Negative Distance	Minkowski	Empty	6	0.354735	0.359551	0.309791
+15	Negative Distance	Minkowski	Empty	7	0.354735	0.359551	0.308186
+15	Negative Distance	Minkowski	Empty	8	0.341894	0.353933	0.309791
+15	Negative Distance	Minkowski	Empty	9	0.340289	0.353933	0.309791
+15	Negative Distance	Minkowski	Empty	10	0.354735	0.331461	0.314607
+15	Hump	Minkowski	Empty	1	0.829856	0.747191	0.815409
+15	Hump	Minkowski	Empty	2	0.837881	0.741573	0.810594
+15	Hump	Minkowski	Empty	3	0.836276	0.741573	0.812199
+15	Hump	Minkowski	Empty	4	0.834671	0.741573	0.813804
+15	Hump	Minkowski	Empty	5	0.834671	0.741573	0.813804
+15	Hump	Minkowski	Empty	6	0.833066	0.741573	0.813804
+15	Hump	Minkowski	Empty	7	0.833066	0.741573	0.813804
+15	Hump	Minkowski	Empty	8	0.833066	0.741573	0.813804
+15	Hump	Minkowski	Empty	9	0.833066	0.741573	0.815409
+15	Hump	Minkowski	Empty	10	0.831461	0.741573	0.817014
+15	Decay	Minkowski	Empty	1	0.837881	0.752809	0.817014
+15	Decay	Minkowski	Empty	2	0.834671	0.747191	0.813804
+15	Decay	Minkowski	Empty	3	0.833066	0.747191	0.813804
+15	Decay	Minkowski	Empty	4	0.833066	0.747191	0.813804
+15	Decay	Minkowski	Empty	5	0.833066	0.747191	0.815409
+15	Decay	Minkowski	Empty	6	0.833066	0.747191	0.815409
+15	Decay	Minkowski	Empty	7	0.833066	0.747191	0.815409
+15	Decay	Minkowski	Empty	8	0.834671	0.747191	0.815409
+15	Decay	Minkowski	Empty	9	0.834671	0.747191	0.817014
+15	Decay	Minkowski	Empty	10	0.833066	0.747191	0.818620
+15	Normalized Negative Distance	Minkowski	Empty	1	0.844302	0.758427	0.791332
+15	Normalized Negative Distance	Minkowski	Empty	2	0.853933	0.752809	0.789727
+15	Normalized Negative Distance	Minkowski	Empty	3	0.852327	0.752809	0.789727
+15	Normalized Negative Distance	Minkowski	Empty	4	0.852327	0.752809	0.789727
+15	Normalized Negative Distance	Minkowski	Empty	5	0.852327	0.752809	0.789727
+15	Normalized Negative Distance	Minkowski	Empty	6	0.853933	0.752809	0.789727
+15	Normalized Negative Distance	Minkowski	Empty	7	0.853933	0.752809	0.789727
+15	Normalized Negative Distance	Minkowski	Empty	8	0.853933	0.752809	0.788122
+15	Normalized Negative Distance	Minkowski	Empty	9	0.853933	0.752809	0.786517
+15	Normalized Negative Distance	Minkowski	Empty	10	0.853933	0.747191	0.786517
+16	Always One	Minkowski	Empty	1	0.829856	0.769663	0.818620
+16	Always One	Minkowski	Empty	2	0.831461	0.764045	0.815409
+16	Always One	Minkowski	Empty	3	0.831461	0.758427	0.817014
+16	Always One	Minkowski	Empty	4	0.831461	0.758427	0.817014
+16	Always One	Minkowski	Empty	5	0.831461	0.758427	0.817014
+16	Always One	Minkowski	Empty	6	0.831461	0.758427	0.817014
+16	Always One	Minkowski	Empty	7	0.831461	0.758427	0.817014
+16	Always One	Minkowski	Empty	8	0.831461	0.758427	0.818620
+16	Always One	Minkowski	Empty	9	0.831461	0.758427	0.818620
+16	Always One	Minkowski	Empty	10	0.834671	0.758427	0.818620
+16	Inverse Distance	Minkowski	Empty	1	0.914928	0.696629	0.776886
+16	Inverse Distance	Minkowski	Empty	2	0.914928	0.691011	0.773676
+16	Inverse Distance	Minkowski	Empty	3	0.914928	0.691011	0.773676
+16	Inverse Distance	Minkowski	Empty	4	0.914928	0.691011	0.776886
+16	Inverse Distance	Minkowski	Empty	5	0.914928	0.691011	0.776886
+16	Inverse Distance	Minkowski	Empty	6	0.914928	0.691011	0.776886
+16	Inverse Distance	Minkowski	Empty	7	0.914928	0.691011	0.776886
+16	Inverse Distance	Minkowski	Empty	8	0.914928	0.691011	0.776886
+16	Inverse Distance	Minkowski	Empty	9	0.914928	0.691011	0.776886
+16	Inverse Distance	Minkowski	Empty	10	0.914928	0.691011	0.776886
+16	Negative Distance	Minkowski	Empty	1	0.338684	0.348315	0.321027
+16	Negative Distance	Minkowski	Empty	2	0.340289	0.353933	0.322632
+16	Negative Distance	Minkowski	Empty	3	0.340289	0.353933	0.314607
+16	Negative Distance	Minkowski	Empty	4	0.340289	0.353933	0.314607
+16	Negative Distance	Minkowski	Empty	5	0.340289	0.353933	0.314607
+16	Negative Distance	Minkowski	Empty	6	0.340289	0.353933	0.314607
+16	Negative Distance	Minkowski	Empty	7	0.340289	0.353933	0.314607
+16	Negative Distance	Minkowski	Empty	8	0.338684	0.353933	0.314607
+16	Negative Distance	Minkowski	Empty	9	0.338684	0.353933	0.311396
+16	Negative Distance	Minkowski	Empty	10	0.332263	0.331461	0.317817
+16	Hump	Minkowski	Empty	1	0.833066	0.764045	0.808989
+16	Hump	Minkowski	Empty	2	0.834671	0.752809	0.805778
+16	Hump	Minkowski	Empty	3	0.834671	0.752809	0.807384
+16	Hump	Minkowski	Empty	4	0.831461	0.752809	0.805778
+16	Hump	Minkowski	Empty	5	0.831461	0.752809	0.805778
+16	Hump	Minkowski	Empty	6	0.831461	0.752809	0.805778
+16	Hump	Minkowski	Empty	7	0.831461	0.752809	0.810594
+16	Hump	Minkowski	Empty	8	0.833066	0.758427	0.810594
+16	Hump	Minkowski	Empty	9	0.833066	0.758427	0.810594
+16	Hump	Minkowski	Empty	10	0.831461	0.747191	0.808989
+16	Decay	Minkowski	Empty	1	0.836276	0.769663	0.810594
+16	Decay	Minkowski	Empty	2	0.831461	0.758427	0.810594
+16	Decay	Minkowski	Empty	3	0.831461	0.752809	0.810594
+16	Decay	Minkowski	Empty	4	0.831461	0.752809	0.810594
+16	Decay	Minkowski	Empty	5	0.831461	0.752809	0.812199
+16	Decay	Minkowski	Empty	6	0.831461	0.752809	0.810594
+16	Decay	Minkowski	Empty	7	0.831461	0.752809	0.810594
+16	Decay	Minkowski	Empty	8	0.833066	0.758427	0.810594
+16	Decay	Minkowski	Empty	9	0.833066	0.758427	0.810594
+16	Decay	Minkowski	Empty	10	0.831461	0.747191	0.808989
+16	Normalized Negative Distance	Minkowski	Empty	1	0.842697	0.764045	0.797753
+16	Normalized Negative Distance	Minkowski	Empty	2	0.852327	0.758427	0.796148
+16	Normalized Negative Distance	Minkowski	Empty	3	0.849117	0.758427	0.796148
+16	Normalized Negative Distance	Minkowski	Empty	4	0.849117	0.758427	0.796148
+16	Normalized Negative Distance	Minkowski	Empty	5	0.849117	0.758427	0.796148
+16	Normalized Negative Distance	Minkowski	Empty	6	0.850722	0.758427	0.796148
+16	Normalized Negative Distance	Minkowski	Empty	7	0.850722	0.758427	0.796148
+16	Normalized Negative Distance	Minkowski	Empty	8	0.850722	0.758427	0.794543
+16	Normalized Negative Distance	Minkowski	Empty	9	0.850722	0.758427	0.792937
+16	Normalized Negative Distance	Minkowski	Empty	10	0.852327	0.752809	0.791332
+17	Always One	Minkowski	Empty	1	0.825040	0.764045	0.813804
+17	Always One	Minkowski	Empty	2	0.821830	0.747191	0.808989
+17	Always One	Minkowski	Empty	3	0.821830	0.752809	0.808989
+17	Always One	Minkowski	Empty	4	0.821830	0.752809	0.808989
+17	Always One	Minkowski	Empty	5	0.821830	0.752809	0.808989
+17	Always One	Minkowski	Empty	6	0.821830	0.752809	0.808989
+17	Always One	Minkowski	Empty	7	0.825040	0.752809	0.808989
+17	Always One	Minkowski	Empty	8	0.826645	0.752809	0.810594
+17	Always One	Minkowski	Empty	9	0.826645	0.752809	0.812199
+17	Always One	Minkowski	Empty	10	0.828250	0.747191	0.812199
+17	Inverse Distance	Minkowski	Empty	1	0.914928	0.696629	0.775281
+17	Inverse Distance	Minkowski	Empty	2	0.914928	0.691011	0.770465
+17	Inverse Distance	Minkowski	Empty	3	0.914928	0.691011	0.770465
+17	Inverse Distance	Minkowski	Empty	4	0.914928	0.691011	0.772071
+17	Inverse Distance	Minkowski	Empty	5	0.914928	0.691011	0.772071
+17	Inverse Distance	Minkowski	Empty	6	0.914928	0.691011	0.772071
+17	Inverse Distance	Minkowski	Empty	7	0.914928	0.691011	0.773676
+17	Inverse Distance	Minkowski	Empty	8	0.914928	0.691011	0.773676
+17	Inverse Distance	Minkowski	Empty	9	0.914928	0.691011	0.773676
+17	Inverse Distance	Minkowski	Empty	10	0.914928	0.691011	0.775281
+17	Negative Distance	Minkowski	Empty	1	0.340289	0.365169	0.276083
+17	Negative Distance	Minkowski	Empty	2	0.341894	0.376404	0.284109
+17	Negative Distance	Minkowski	Empty	3	0.341894	0.370787	0.282504
+17	Negative Distance	Minkowski	Empty	4	0.341894	0.370787	0.282504
+17	Negative Distance	Minkowski	Empty	5	0.341894	0.370787	0.282504
+17	Negative Distance	Minkowski	Empty	6	0.341894	0.370787	0.282504
+17	Negative Distance	Minkowski	Empty	7	0.341894	0.370787	0.280899
+17	Negative Distance	Minkowski	Empty	8	0.337079	0.370787	0.277689
+17	Negative Distance	Minkowski	Empty	9	0.338684	0.370787	0.277689
+17	Negative Distance	Minkowski	Empty	10	0.333868	0.370787	0.288925
+17	Hump	Minkowski	Empty	1	0.829856	0.752809	0.807384
+17	Hump	Minkowski	Empty	2	0.836276	0.747191	0.800963
+17	Hump	Minkowski	Empty	3	0.836276	0.747191	0.802568
+17	Hump	Minkowski	Empty	4	0.833066	0.747191	0.800963
+17	Hump	Minkowski	Empty	5	0.831461	0.747191	0.800963
+17	Hump	Minkowski	Empty	6	0.831461	0.747191	0.800963
+17	Hump	Minkowski	Empty	7	0.831461	0.747191	0.800963
+17	Hump	Minkowski	Empty	8	0.831461	0.752809	0.802568
+17	Hump	Minkowski	Empty	9	0.831461	0.752809	0.805778
+17	Hump	Minkowski	Empty	10	0.829856	0.747191	0.805778
+17	Decay	Minkowski	Empty	1	0.837881	0.764045	0.813804
+17	Decay	Minkowski	Empty	2	0.834671	0.747191	0.807384
+17	Decay	Minkowski	Empty	3	0.833066	0.747191	0.808989
+17	Decay	Minkowski	Empty	4	0.833066	0.747191	0.808989
+17	Decay	Minkowski	Empty	5	0.833066	0.747191	0.810594
+17	Decay	Minkowski	Empty	6	0.833066	0.747191	0.810594
+17	Decay	Minkowski	Empty	7	0.833066	0.747191	0.810594
+17	Decay	Minkowski	Empty	8	0.833066	0.758427	0.810594
+17	Decay	Minkowski	Empty	9	0.833066	0.758427	0.813804
+17	Decay	Minkowski	Empty	10	0.833066	0.747191	0.813804
+17	Normalized Negative Distance	Minkowski	Empty	1	0.839486	0.764045	0.804173
+17	Normalized Negative Distance	Minkowski	Empty	2	0.849117	0.758427	0.802568
+17	Normalized Negative Distance	Minkowski	Empty	3	0.845907	0.752809	0.802568
+17	Normalized Negative Distance	Minkowski	Empty	4	0.845907	0.752809	0.802568
+17	Normalized Negative Distance	Minkowski	Empty	5	0.845907	0.752809	0.802568
+17	Normalized Negative Distance	Minkowski	Empty	6	0.847512	0.752809	0.802568
+17	Normalized Negative Distance	Minkowski	Empty	7	0.847512	0.752809	0.802568
+17	Normalized Negative Distance	Minkowski	Empty	8	0.847512	0.752809	0.800963
+17	Normalized Negative Distance	Minkowski	Empty	9	0.847512	0.752809	0.799358
+17	Normalized Negative Distance	Minkowski	Empty	10	0.849117	0.752809	0.797753
+18	Always One	Minkowski	Empty	1	0.828250	0.764045	0.818620
+18	Always One	Minkowski	Empty	2	0.825040	0.764045	0.815409
+18	Always One	Minkowski	Empty	3	0.826645	0.764045	0.815409
+18	Always One	Minkowski	Empty	4	0.826645	0.764045	0.815409
+18	Always One	Minkowski	Empty	5	0.826645	0.764045	0.815409
+18	Always One	Minkowski	Empty	6	0.826645	0.764045	0.815409
+18	Always One	Minkowski	Empty	7	0.825040	0.764045	0.815409
+18	Always One	Minkowski	Empty	8	0.825040	0.764045	0.815409
+18	Always One	Minkowski	Empty	9	0.825040	0.764045	0.815409
+18	Always One	Minkowski	Empty	10	0.829856	0.764045	0.808989
+18	Inverse Distance	Minkowski	Empty	1	0.914928	0.696629	0.778491
+18	Inverse Distance	Minkowski	Empty	2	0.914928	0.696629	0.773676
+18	Inverse Distance	Minkowski	Empty	3	0.914928	0.696629	0.773676
+18	Inverse Distance	Minkowski	Empty	4	0.914928	0.696629	0.776886
+18	Inverse Distance	Minkowski	Empty	5	0.914928	0.696629	0.776886
+18	Inverse Distance	Minkowski	Empty	6	0.914928	0.696629	0.776886
+18	Inverse Distance	Minkowski	Empty	7	0.914928	0.696629	0.776886
+18	Inverse Distance	Minkowski	Empty	8	0.914928	0.696629	0.776886
+18	Inverse Distance	Minkowski	Empty	9	0.914928	0.696629	0.776886
+18	Inverse Distance	Minkowski	Empty	10	0.914928	0.696629	0.775281
+18	Negative Distance	Minkowski	Empty	1	0.306581	0.365169	0.293740
+18	Negative Distance	Minkowski	Empty	2	0.314607	0.382022	0.282504
+18	Negative Distance	Minkowski	Empty	3	0.314607	0.382022	0.282504
+18	Negative Distance	Minkowski	Empty	4	0.314607	0.382022	0.282504
+18	Negative Distance	Minkowski	Empty	5	0.314607	0.382022	0.282504
+18	Negative Distance	Minkowski	Empty	6	0.314607	0.382022	0.282504
+18	Negative Distance	Minkowski	Empty	7	0.313002	0.382022	0.282504
+18	Negative Distance	Minkowski	Empty	8	0.321027	0.382022	0.280899
+18	Negative Distance	Minkowski	Empty	9	0.321027	0.382022	0.280899
+18	Negative Distance	Minkowski	Empty	10	0.309791	0.365169	0.284109
+18	Hump	Minkowski	Empty	1	0.829856	0.752809	0.807384
+18	Hump	Minkowski	Empty	2	0.833066	0.747191	0.799358
+18	Hump	Minkowski	Empty	3	0.828250	0.747191	0.800963
+18	Hump	Minkowski	Empty	4	0.828250	0.747191	0.799358
+18	Hump	Minkowski	Empty	5	0.828250	0.747191	0.799358
+18	Hump	Minkowski	Empty	6	0.828250	0.747191	0.800963
+18	Hump	Minkowski	Empty	7	0.828250	0.752809	0.804173
+18	Hump	Minkowski	Empty	8	0.828250	0.752809	0.805778
+18	Hump	Minkowski	Empty	9	0.828250	0.752809	0.805778
+18	Hump	Minkowski	Empty	10	0.829856	0.752809	0.800963
+18	Decay	Minkowski	Empty	1	0.831461	0.752809	0.807384
+18	Decay	Minkowski	Empty	2	0.828250	0.752809	0.804173
+18	Decay	Minkowski	Empty	3	0.828250	0.752809	0.804173
+18	Decay	Minkowski	Empty	4	0.828250	0.752809	0.804173
+18	Decay	Minkowski	Empty	5	0.828250	0.752809	0.805778
+18	Decay	Minkowski	Empty	6	0.828250	0.752809	0.805778
+18	Decay	Minkowski	Empty	7	0.828250	0.752809	0.805778
+18	Decay	Minkowski	Empty	8	0.828250	0.752809	0.807384
+18	Decay	Minkowski	Empty	9	0.828250	0.752809	0.807384
+18	Decay	Minkowski	Empty	10	0.828250	0.752809	0.802568
+18	Normalized Negative Distance	Minkowski	Empty	1	0.839486	0.764045	0.802568
+18	Normalized Negative Distance	Minkowski	Empty	2	0.849117	0.758427	0.799358
+18	Normalized Negative Distance	Minkowski	Empty	3	0.845907	0.752809	0.799358
+18	Normalized Negative Distance	Minkowski	Empty	4	0.845907	0.752809	0.799358
+18	Normalized Negative Distance	Minkowski	Empty	5	0.845907	0.752809	0.802568
+18	Normalized Negative Distance	Minkowski	Empty	6	0.847512	0.752809	0.802568
+18	Normalized Negative Distance	Minkowski	Empty	7	0.847512	0.752809	0.802568
+18	Normalized Negative Distance	Minkowski	Empty	8	0.847512	0.752809	0.800963
+18	Normalized Negative Distance	Minkowski	Empty	9	0.847512	0.752809	0.799358
+18	Normalized Negative Distance	Minkowski	Empty	10	0.849117	0.752809	0.799358
+19	Always One	Minkowski	Empty	1	0.823435	0.747191	0.818620
+19	Always One	Minkowski	Empty	2	0.820225	0.752809	0.808989
+19	Always One	Minkowski	Empty	3	0.820225	0.752809	0.808989
+19	Always One	Minkowski	Empty	4	0.820225	0.752809	0.808989
+19	Always One	Minkowski	Empty	5	0.820225	0.752809	0.808989
+19	Always One	Minkowski	Empty	6	0.820225	0.752809	0.808989
+19	Always One	Minkowski	Empty	7	0.820225	0.752809	0.808989
+19	Always One	Minkowski	Empty	8	0.818620	0.747191	0.812199
+19	Always One	Minkowski	Empty	9	0.818620	0.747191	0.813804
+19	Always One	Minkowski	Empty	10	0.821830	0.758427	0.810594
+19	Inverse Distance	Minkowski	Empty	1	0.914928	0.702247	0.778491
+19	Inverse Distance	Minkowski	Empty	2	0.914928	0.696629	0.775281
+19	Inverse Distance	Minkowski	Empty	3	0.914928	0.696629	0.775281
+19	Inverse Distance	Minkowski	Empty	4	0.914928	0.696629	0.775281
+19	Inverse Distance	Minkowski	Empty	5	0.914928	0.696629	0.775281
+19	Inverse Distance	Minkowski	Empty	6	0.914928	0.696629	0.775281
+19	Inverse Distance	Minkowski	Empty	7	0.914928	0.696629	0.775281
+19	Inverse Distance	Minkowski	Empty	8	0.914928	0.696629	0.775281
+19	Inverse Distance	Minkowski	Empty	9	0.914928	0.696629	0.775281
+19	Inverse Distance	Minkowski	Empty	10	0.914928	0.696629	0.775281
+19	Negative Distance	Minkowski	Empty	1	0.301766	0.359551	0.268058
+19	Negative Distance	Minkowski	Empty	2	0.290530	0.353933	0.276083
+19	Negative Distance	Minkowski	Empty	3	0.290530	0.353933	0.274478
+19	Negative Distance	Minkowski	Empty	4	0.290530	0.353933	0.272873
+19	Negative Distance	Minkowski	Empty	5	0.290530	0.353933	0.272873
+19	Negative Distance	Minkowski	Empty	6	0.290530	0.353933	0.272873
+19	Negative Distance	Minkowski	Empty	7	0.288925	0.359551	0.272873
+19	Negative Distance	Minkowski	Empty	8	0.293740	0.348315	0.276083
+19	Negative Distance	Minkowski	Empty	9	0.292135	0.348315	0.276083
+19	Negative Distance	Minkowski	Empty	10	0.292135	0.348315	0.276083
+19	Hump	Minkowski	Empty	1	0.828250	0.752809	0.810594
+19	Hump	Minkowski	Empty	2	0.834671	0.747191	0.799358
+19	Hump	Minkowski	Empty	3	0.829856	0.747191	0.797753
+19	Hump	Minkowski	Empty	4	0.829856	0.752809	0.799358
+19	Hump	Minkowski	Empty	5	0.829856	0.752809	0.799358
+19	Hump	Minkowski	Empty	6	0.829856	0.752809	0.799358
+19	Hump	Minkowski	Empty	7	0.829856	0.752809	0.799358
+19	Hump	Minkowski	Empty	8	0.829856	0.752809	0.802568
+19	Hump	Minkowski	Empty	9	0.829856	0.752809	0.804173
+19	Hump	Minkowski	Empty	10	0.829856	0.752809	0.802568
+19	Decay	Minkowski	Empty	1	0.837881	0.758427	0.817014
+19	Decay	Minkowski	Empty	2	0.831461	0.752809	0.804173
+19	Decay	Minkowski	Empty	3	0.831461	0.752809	0.805778
+19	Decay	Minkowski	Empty	4	0.831461	0.752809	0.805778
+19	Decay	Minkowski	Empty	5	0.831461	0.752809	0.807384
+19	Decay	Minkowski	Empty	6	0.831461	0.752809	0.807384
+19	Decay	Minkowski	Empty	7	0.831461	0.752809	0.807384
+19	Decay	Minkowski	Empty	8	0.831461	0.752809	0.807384
+19	Decay	Minkowski	Empty	9	0.831461	0.752809	0.808989
+19	Decay	Minkowski	Empty	10	0.833066	0.758427	0.808989
+19	Normalized Negative Distance	Minkowski	Empty	1	0.836276	0.764045	0.800963
+19	Normalized Negative Distance	Minkowski	Empty	2	0.845907	0.758427	0.799358
+19	Normalized Negative Distance	Minkowski	Empty	3	0.845907	0.752809	0.799358
+19	Normalized Negative Distance	Minkowski	Empty	4	0.845907	0.752809	0.799358
+19	Normalized Negative Distance	Minkowski	Empty	5	0.845907	0.752809	0.802568
+19	Normalized Negative Distance	Minkowski	Empty	6	0.847512	0.752809	0.802568
+19	Normalized Negative Distance	Minkowski	Empty	7	0.847512	0.752809	0.802568
+19	Normalized Negative Distance	Minkowski	Empty	8	0.847512	0.752809	0.800963
+19	Normalized Negative Distance	Minkowski	Empty	9	0.847512	0.752809	0.799358
+19	Normalized Negative Distance	Minkowski	Empty	10	0.849117	0.752809	0.799358
+20	Always One	Minkowski	Empty	1	0.825040	0.741573	0.812199
+20	Always One	Minkowski	Empty	2	0.820225	0.752809	0.812199
+20	Always One	Minkowski	Empty	3	0.820225	0.752809	0.810594
+20	Always One	Minkowski	Empty	4	0.820225	0.752809	0.810594
+20	Always One	Minkowski	Empty	5	0.820225	0.752809	0.810594
+20	Always One	Minkowski	Empty	6	0.820225	0.752809	0.810594
+20	Always One	Minkowski	Empty	7	0.820225	0.752809	0.810594
+20	Always One	Minkowski	Empty	8	0.820225	0.758427	0.812199
+20	Always One	Minkowski	Empty	9	0.820225	0.758427	0.813804
+20	Always One	Minkowski	Empty	10	0.821830	0.758427	0.813804
+20	Inverse Distance	Minkowski	Empty	1	0.914928	0.702247	0.778491
+20	Inverse Distance	Minkowski	Empty	2	0.914928	0.696629	0.775281
+20	Inverse Distance	Minkowski	Empty	3	0.914928	0.696629	0.775281
+20	Inverse Distance	Minkowski	Empty	4	0.914928	0.696629	0.776886
+20	Inverse Distance	Minkowski	Empty	5	0.914928	0.696629	0.776886
+20	Inverse Distance	Minkowski	Empty	6	0.914928	0.696629	0.776886
+20	Inverse Distance	Minkowski	Empty	7	0.914928	0.696629	0.776886
+20	Inverse Distance	Minkowski	Empty	8	0.914928	0.696629	0.776886
+20	Inverse Distance	Minkowski	Empty	9	0.914928	0.696629	0.776886
+20	Inverse Distance	Minkowski	Empty	10	0.914928	0.696629	0.776886
+20	Negative Distance	Minkowski	Empty	1	0.287319	0.342697	0.266453
+20	Negative Distance	Minkowski	Empty	2	0.277689	0.342697	0.276083
+20	Negative Distance	Minkowski	Empty	3	0.277689	0.342697	0.276083
+20	Negative Distance	Minkowski	Empty	4	0.276083	0.342697	0.276083
+20	Negative Distance	Minkowski	Empty	5	0.276083	0.342697	0.276083
+20	Negative Distance	Minkowski	Empty	6	0.276083	0.342697	0.276083
+20	Negative Distance	Minkowski	Empty	7	0.279294	0.342697	0.276083
+20	Negative Distance	Minkowski	Empty	8	0.287319	0.337079	0.277689
+20	Negative Distance	Minkowski	Empty	9	0.285714	0.337079	0.279294
+20	Negative Distance	Minkowski	Empty	10	0.282504	0.337079	0.276083
+20	Hump	Minkowski	Empty	1	0.829856	0.747191	0.807384
+20	Hump	Minkowski	Empty	2	0.833066	0.741573	0.797753
+20	Hump	Minkowski	Empty	3	0.828250	0.741573	0.797753
+20	Hump	Minkowski	Empty	4	0.828250	0.741573	0.797753
+20	Hump	Minkowski	Empty	5	0.828250	0.741573	0.797753
+20	Hump	Minkowski	Empty	6	0.828250	0.741573	0.799358
+20	Hump	Minkowski	Empty	7	0.828250	0.752809	0.802568
+20	Hump	Minkowski	Empty	8	0.828250	0.752809	0.805778
+20	Hump	Minkowski	Empty	9	0.828250	0.752809	0.807384
+20	Hump	Minkowski	Empty	10	0.828250	0.752809	0.805778
+20	Decay	Minkowski	Empty	1	0.836276	0.747191	0.807384
+20	Decay	Minkowski	Empty	2	0.829856	0.752809	0.802568
+20	Decay	Minkowski	Empty	3	0.829856	0.752809	0.802568
+20	Decay	Minkowski	Empty	4	0.829856	0.752809	0.802568
+20	Decay	Minkowski	Empty	5	0.829856	0.752809	0.804173
+20	Decay	Minkowski	Empty	6	0.829856	0.752809	0.804173
+20	Decay	Minkowski	Empty	7	0.828250	0.752809	0.804173
+20	Decay	Minkowski	Empty	8	0.828250	0.752809	0.807384
+20	Decay	Minkowski	Empty	9	0.828250	0.752809	0.808989
+20	Decay	Minkowski	Empty	10	0.828250	0.752809	0.807384
+20	Normalized Negative Distance	Minkowski	Empty	1	0.833066	0.769663	0.800963
+20	Normalized Negative Distance	Minkowski	Empty	2	0.844302	0.764045	0.799358
+20	Normalized Negative Distance	Minkowski	Empty	3	0.844302	0.758427	0.799358
+20	Normalized Negative Distance	Minkowski	Empty	4	0.845907	0.758427	0.799358
+20	Normalized Negative Distance	Minkowski	Empty	5	0.845907	0.752809	0.802568
+20	Normalized Negative Distance	Minkowski	Empty	6	0.847512	0.752809	0.802568
+20	Normalized Negative Distance	Minkowski	Empty	7	0.847512	0.752809	0.802568
+20	Normalized Negative Distance	Minkowski	Empty	8	0.847512	0.752809	0.800963
+20	Normalized Negative Distance	Minkowski	Empty	9	0.847512	0.752809	0.799358
+20	Normalized Negative Distance	Minkowski	Empty	10	0.849117	0.752809	0.799358
+Best Options: 15, Always One, Empty, Minkowski, 10 - Best Accuracy: 0.823435
