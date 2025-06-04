@@ -35,20 +35,22 @@ if __name__ == "__main__":
     val_features = val_dp.get_features('Survived')
     val_labels = val_dp.get_labels('Survived')
 
-    # Configure and instantiate classifier
-    classifier = Perceptron()
+    max_epochs = 1000000
+    
+    print("Epoch\tRegularizer\tTrain Accuracy\tValidation Accuracy")
+    for op in {None, "l1", "l2"}:
+        # Configure and instantiate classifier
+        classifier = Perceptron(penalty=op, max_iter=max_epochs)
 
-    print("Epoch\tTrain Accuracy\tValidation Accuracy")
-    for i in range(1,1001):
-        # Train classifier on training data
-        classifier.partial_fit(train_features, train_labels, np.unique(train_labels))
+        for i in range(1,max_epochs+1):
+            # Train classifier on training data
+            classifier.partial_fit(train_features, train_labels, np.unique(train_labels))
 
-        # Calculate accuracy on val labels
-        t_accuracy = classifier.score(train_features, train_labels)
-        v_accuracy = classifier.score(val_features, val_labels)
-        
-        if i % 50 == 0:
-            print("%d\t%f" % (i, t_accuracy, v_accuracy))
+            if i % 10000 == 0:
+                # Calculate accuracy on val labels
+                t_accuracy = classifier.score(train_features, train_labels)
+                v_accuracy = classifier.score(val_features, val_labels)
+                print("%d\t%s\t%f\t%f" % (i, op, t_accuracy, v_accuracy))
 
     
     
