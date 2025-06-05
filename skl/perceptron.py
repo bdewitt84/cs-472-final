@@ -1,19 +1,16 @@
-#./skl/knn.py
-
-"""Sci-kit Learn KNN model used for reference and comparison in cs-472-final"""
-
+#./skl/perceptron.py
+'''
+A scikit-learn perceptron applied to the Titanic dataset. Copied and edited
+from skl/knn.py by Brett Dewitt.
+Author: Makani Buckley
+Date: May 4, 2025
+'''
 
 # Imports
 from sklearn.linear_model import Perceptron
 import pandas as pd
 from preprocessor.data_preprocessor import DataPreprocessor
 import numpy as np
-
-
-# Metadata
-__author__ = "Brett DeWitt"
-__date__ = "2025-5-20"
-
 
 if __name__ == "__main__":
 

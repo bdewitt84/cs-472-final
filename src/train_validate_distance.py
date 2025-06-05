@@ -1,9 +1,10 @@
 #src/train_evaluate.py
 '''
 Train and evaluate K Nearest Neighbor on the Titanic Dataset.
+Search distance functions for best performance on validation set.
 Derrived from skl/knn.py by Brett DeWitt
 Author:  Makani Buckley
-Date: May 24, 2025
+Date: May 31, 2025
 '''
 import pandas as pd
 

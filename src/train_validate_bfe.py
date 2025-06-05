@@ -1,9 +1,10 @@
 #src/train_evaluate.py
 '''
 Train and evaluate K Nearest Neighbor on the Titanic Dataset.
+Use a reduced feature list derived using BFE.
 Derrived from skl/knn.py by Brett DeWitt
 Author:  Makani Buckley
-Date: May 24, 2025
+Date: July 1, 2025
 '''
 import pandas as pd
 
