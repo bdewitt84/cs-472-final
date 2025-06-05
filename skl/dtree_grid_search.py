@@ -1,8 +1,20 @@
+#./skl/dtree_grid_search.py
+
+"""Sci-kit Learn Dtree model hyperparameter grid search"""
+
+
+# Imports
 from preprocessor.data_preprocessor import DataPreprocessor
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import GridSearchCV, LeaveOneOut
 import os
+
+
+# Metadata
+__author__ = "Brett DeWitt"
+__date__ = "2025-6-5"
+
 
 if __name__ == "__main__":
     # Define the output directory for results
