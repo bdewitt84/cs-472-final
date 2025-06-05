@@ -10,7 +10,7 @@ import pandas as pd
 from preprocessor.data_preprocessor import DataPreprocessor
 from src.knn import KNearestNeighbors
 from src.utils import always_one, inverse, euclidian, negative, hump, decay, normalized_negative, minkowski
-from src.cross_val import llocv
+from src.cross_val import loocv
 
 def accuracy_score(y_pred, y_true):
     if len(y_pred) != len(y_true):
@@ -48,7 +48,7 @@ def search_distance(
         # Calculate accuracy on train and test labels
         train_accuracy = accuracy_score(y_pred_train, train_labels)
         val_accuracy = accuracy_score(y_pred_val, val_labels)
-        cross_val_accuracy = llocv(classifier, train_features, train_labels)
+        cross_val_accuracy = loocv(classifier, train_features, train_labels)
         print("Option: %s - Accuracy (train, validate, cross validate): %f, %f, %f" % (name, train_accuracy, val_accuracy, cross_val_accuracy))
         if val_accuracy > best_acc:
             best_op = (name, option)

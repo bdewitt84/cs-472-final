@@ -12,7 +12,7 @@ __author__ = "Brett DeWitt"
 __date__ = "5.27.2025"
 
 
-def llocv(model, examples: pandas.DataFrame, labels: pandas.DataFrame):
+def loocv(model, examples: pandas.DataFrame, labels: pandas.DataFrame):
     """
     Performs leave-one-out cross-validation using the given model on the given examples and labels.
     :param model: an initialized instance of a sklearn-compatible model
@@ -65,4 +65,6 @@ if __name__ == '__main__':
 
     classifier = KNearestNeighbors(**params)
 
-    print(llocv(classifier, train_features, train_labels))
+    print(loocv(classifier, train_features, train_labels))
+    # Output
+    # Accuracy: 0.8777777777777778

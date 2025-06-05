@@ -6,7 +6,7 @@ Date: May 31, 2025
 '''
 from itertools import product
 from src.knn import KNearestNeighbors
-from src.cross_val import llocv
+from src.cross_val import loocv
 from src.utils import accuracy_score
 
 '''
@@ -61,7 +61,7 @@ def grid_search (
             # Calculate accuracy on train and test labels
             train_accuracy = accuracy_score(y_pred_train, train_labels)
             val_accuracy = accuracy_score(y_pred_val, val_labels)
-            cross_val_accuracy = llocv(classifier, train_features, train_labels)
+            cross_val_accuracy = loocv(classifier, train_features, train_labels)
             print("%d\t%s\t%s\t%s\t%s\t%f\t%f\t%f" % (n_neighbors, w_name, d_name, w_par_name, d_par_name, train_accuracy, val_accuracy, cross_val_accuracy))
             if cross_val_accuracy > best_acc:
                 best_op = (n_neighbors, (w_name, (w_func, (w_par_name, w_par))), (d_name, (d_func, (d_par_name, d_par))))

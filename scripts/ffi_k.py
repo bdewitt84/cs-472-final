@@ -17,7 +17,7 @@ if __name__ == "__main__":
     from preprocessor.data_preprocessor import DataPreprocessor
     from src.utils import always_one, euclidian
     from src.knn import KNearestNeighbors
-    from src.cross_val import llocv
+    from src.cross_val import loocv
     from src.ffi import forward_feature_inclusion
     from pprint import pprint
 
@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
         classifier = KNearestNeighbors(**params)
 
-        inclusion_order = forward_feature_inclusion(classifier, train_features, train_labels, llocv)
+        inclusion_order = forward_feature_inclusion(classifier, train_features, train_labels, loocv)
         pprint(inclusion_order)
 
         data = "feature,accuracy\n"

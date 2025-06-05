@@ -10,7 +10,7 @@ import pandas as pd
 from preprocessor.data_preprocessor import DataPreprocessor
 from src.utils import always_one, euclidian
 from src.knn import KNearestNeighbors
-from src.cross_val import llocv
+from src.cross_val import loocv
 from src.bfe import backward_feature_elimination
 from pprint import pprint
 
@@ -45,7 +45,7 @@ if __name__ == "__main__":
 
         classifier = KNearestNeighbors(**params)
 
-        drop_order = backward_feature_elimination(classifier, train_features, train_labels, llocv)
+        drop_order = backward_feature_elimination(classifier, train_features, train_labels, loocv)
         pprint(drop_order)
 
         data = "feature,accuracy\n"

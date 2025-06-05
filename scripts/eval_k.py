@@ -10,7 +10,7 @@ import pandas as pd
 from preprocessor.data_preprocessor import DataPreprocessor
 from src.knn import KNearestNeighbors
 from src.utils import always_one, euclidian
-from src.cross_val import llocv
+from src.cross_val import loocv
 
 
 # Metadata
@@ -53,7 +53,7 @@ if __name__ == "__main__":
             "n_neighbors": k,
         })
         classifier = KNearestNeighbors(**params)
-        accuracy = llocv(classifier, train_features, train_labels)
+        accuracy = loocv(classifier, train_features, train_labels)
         print(k, accuracy)
         data += f"{k},{accuracy}\n"
 

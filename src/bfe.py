@@ -63,7 +63,7 @@ if __name__ == "__main__":
     from preprocessor.data_preprocessor import DataPreprocessor
     from utils import always_one, euclidian
     from knn import KNearestNeighbors
-    from src.cross_val import llocv
+    from src.cross_val import loocv
     from pprint import pprint
 
     # Read in training data
@@ -83,7 +83,7 @@ if __name__ == "__main__":
 
     classifier = KNearestNeighbors(**params)
 
-    drop_order = backward_feature_elimination(classifier, train_features, train_labels, llocv)
+    drop_order = backward_feature_elimination(classifier, train_features, train_labels, loocv)
     pprint(drop_order)
 
     data = "feature,accuracy\n"
