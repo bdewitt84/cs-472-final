@@ -39,7 +39,7 @@ if __name__ == "__main__":
         y_pred = classifier.predict(test_features_knn)
 
         # Calculate accuracy on test labels
-        knn_accuracy = accuracy_score(y_pred, test_labels_knn)
+        accuracy = accuracy_score(y_pred, test_labels_knn)
 
         print("KNN Accuracy: ", accuracy)
 
