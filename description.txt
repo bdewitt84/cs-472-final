@@ -1,0 +1,83 @@
+.
+├── README.md
+├── data # A folder containing the raw data for this project (Author: Makani Buckley and Brett DeWitt)
+│   ├── dev.csv # The processed titanic development data (Author: Makani Buckley and Brett DeWitt)
+│   ├── kaggle-test-proc.csv # The processed kaggle test data (Author: Makani Buckley)
+│   ├── kaggle-titanic-test.csv # The raw kaggle test data (Author: Makani Buckley)
+│   ├── kaggle-titanic.csv # The raw titanic data (Author: Brett DeWitt)
+│   ├── test.csv # The processed titanic test data (Author: Makani Buckley and Brett DeWitt)
+│   └── train.csv # The processed titanic train.data (Author: Makani Buckley and Brett DeWitt)
+├── description.txt # Describes the file structure of the project
+├── models # A folder of the machine learning models of the project as pickled python objects (Author: Makani Buckley)
+│   ├── dt_trained.pkl # The trained decision tree (Author: Makani Buckley)
+│   ├── model_bfe.pkl # The untrained KNN using BFE Features (Best KNN Model) (Author: Makani Buckley)
+│   ├── model_bfe_trained.pkl # The trained KNN using BFE features (Best KNN Model) (Author: Makani Buckley)
+│   ├── model_ffi.pkl # The untrained KNN using FFI features (Author: Makani Buckley)
+│   ├── model_ffi_trained.pkl # The trained KNN using FFI features (Author: Makani Buckley)
+│   ├── model_full.pkl # The untrained KNN using Full Features (Author: Makani Buckley)
+│   ├── model_full_trained.pkl # The trained KNN using Full features (Author: Makani Buckley)
+│   ├── perceptron_trained.pkl # The trained Perceptron (Author: Makani Buckley)
+│   └── perceptron_untrained.pkl # The untrained Perceptron (Author: Makani Buckley)
+├── output # A folder containing the output of our project scripts (Author: Brett DeWitt)
+│   ├── dt_loocv_grid_search_train.csv
+│   ├── dt_loocv_grid_search_train_dev.csv
+│   ├── dt_predictions.csv # The predictions of the best DT on the kaggle test data (Author: Makani Buckley)
+│   ├── eval_bfe_xval_11_out.csv
+│   ├── eval_bfe_xval_13_out.csv
+│   ├── eval_bfe_xval_15_out.csv
+│   ├── eval_bfe_xval_17_out.csv
+│   ├── eval_bfe_xval_out.csv
+│   ├── eval_corr_xval_out.csv
+│   ├── eval_ffi_11_xval_out.csv
+│   ├── eval_ffi_13_xval_out.csv
+│   ├── eval_ffi_15_xval_out.csv
+│   ├── eval_ffi_17_xval_out.csv
+│   ├── eval_ffi_1_xval_out.csv
+│   ├── eval_ffi_9_xval_out.csv
+│   ├── hyper_parameter_search.csv # The performance of each hyperparameter combination of KNN (Full Features) (Author: Makani Buckley)
+│   ├── hyper_parameter_search_bfe.csv # The performance of each hyperparameter combination of KNN (BFE Features) (Author: Makani Buckley)
+│   ├── hyper_parameter_search_ffi.csv # The performance of each hyperparameter combination of KNN (FFI Features) (Author: Makani Buckley)
+│   ├── knn_predictions.csv # The predictions of the best KNN on the kaggle test data (Author: Makani Buckley)
+│   └── perceptron_predictions.csv # The predictions of the best Perceptron on the kaggle test data (Author: Makani Buckley)
+├── preprocessor
+│   ├── __init__.py
+│   ├── data_preprocessor.py
+│   └── kaggle-test-parse.py
+├── requirements.txt # The python libraries and modules required for the project
+├── scripts
+│   ├── bfe_k.py
+│   ├── eval_k.py
+│   └── ffi_k.py
+├── setup.py # The setup script required for installing the project as a python module
+├── skl # A folder of the scikit-learn models (Author: Brett DeWitt)
+│   ├── dtree.py 
+│   ├── dtree_grid_search.py
+│   ├── knn.py 
+│   ├── perceptron.py # A script to train and test percepton on the train and development sets and to search for optimal hyperparameters (Author: Makani Buckley)
+│   ├── total_train_dt.py # A script to train a decision tree on the combined train and development data and save a pickled copy of it (Author: Makani Buckley)
+│   └── total_train_perceptron.py # A script to train a perceptron on the combined train and development data and save a pickled copy of it (Author: Makani Buckley)
+├── src # The source files for this project
+│   ├── __init__.py
+│   ├── bfe.py
+│   ├── correlation.py
+│   ├── cross_val.py
+│   ├── evaluate.py # A script to test the best KNN, Perceptron, and Decision Tree model on the test data (Author: Makani Buckley)
+│   ├── ffi.py
+│   ├── grid_search.py # A script defining grid search for finding the best hyperparameter options for KNN (Author: Makani Buckley)
+│   ├── kaggle-evaluate.py # A script to test the best KNN, Perceptron, and Decision Tree model on the kaggle test data (Author: Makani Buckley)
+│   ├── knn.py # A script implementing the a KNN model in python (Author: Makani Buckley)
+│   ├── train_validate.py # A script to train and validate KNN on the train and development data (Full featrures) (Author: Makani Buckley)
+│   ├── train_validate_bfe.py # A script to train and validate KNN on the train and development data (BFE features)
+│   ├── train_validate_distance.py # A script to train and validate KNN on the train and development data, testing different metric functions (Author: Makani Buckley)
+│   ├── train_validate_ffi.py # A script to train and validate KNN on the train and development data (FFI features) (Author: Makani Buckley)
+│   ├── train_validate_total.py # A script to train a best KNN on the combined train and development data (Author: Makani Buckley)
+│   ├── train_validate_weights.py # A script to train and validate KNN on the train and development data, testing different weights functions (Author: Makani Buckley)
+│   └── utils.py # A script definint various useful utility functions such as metric and weights functions (Author: Makani Buckley)
+├── tests
+│   ├── test_data_preprocessor.py
+│   ├── test_helper.py
+│   └── test_knn.py
+└── util
+    ├── __init__.py
+    ├── helper.py
+    └── notes.txt
