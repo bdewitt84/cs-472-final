@@ -1,3 +1,4 @@
+```
 .
 ├── README.md
 ├── data # A folder containing the raw data for this project (Author: Makani Buckley and Brett DeWitt)
@@ -42,7 +43,7 @@
 ├── preprocessor
 │   ├── __init__.py
 │   ├── data_preprocessor.py
-│   └── kaggle-test-parse.py
+│   └── kaggle-test-parse.py # A script for preprocessing the kaggle test data (Author: Makani Buckley)
 ├── requirements.txt # The python libraries and modules required for the project
 ├── scripts
 │   ├── bfe_k.py
@@ -81,3 +82,4 @@
     ├── __init__.py
     ├── helper.py
     └── notes.txt
+```
