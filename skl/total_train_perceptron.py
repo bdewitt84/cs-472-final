@@ -1,6 +1,6 @@
-#./skl/knn.py
+#./skl/total_train_perceptron.py
 
-"""Sci-kit Learn KNN model used for reference and comparison in cs-472-final"""
+"""Sci-kit Learn Perceptron model used for reference and comparison in cs-472-final"""
 
 
 # Imports

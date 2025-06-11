@@ -1,6 +1,6 @@
-#./skl/knn.py
+#./skl/train_dt.py
 
-"""Sci-kit Learn KNN model used for reference and comparison in cs-472-final"""
+"""Sci-kit Learn Decision Tree model used for reference and comparison in cs-472-final"""
 
 
 # Imports
