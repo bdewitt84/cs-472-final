@@ -42,7 +42,7 @@ pip install -e .
 
 Train and Validate a K-Nearest Neighbors model on the titanic data in data/ using
 ```
-python src/train_validate.py
+python scripts/train_validate.py
 ```
 
 ## File Structure
